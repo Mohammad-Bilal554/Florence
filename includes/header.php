@@ -138,9 +138,9 @@ $BASE_URL = "/Projects/Florence/";
                                         </li>
                                         <li class="has-sub"><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="event.html">Events</a></li>
+                                                <li><a href="/projects/Florence/pages/event.php">Events</a></li>
                                                 <!-- <li><a href="single-event.html">Event Details</a></li> -->
-                                                <li><a href="projects.html">Gallery</a></li>
+                                                <li><a href="/projects/Florence/pages/gallery.php">Gallery</a></li>
                                                 <!-- <li><a href="pricing.html">Pricing</a></li> -->
                                                 <!-- <li><a href="faq.html">Faq</a></li> -->
                                                 <!-- <li><a href="team.html">Teacher</a></li> -->

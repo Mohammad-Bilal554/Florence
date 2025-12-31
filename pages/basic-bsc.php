@@ -47,7 +47,7 @@
                         
                          <div class="upper-box">
                             <div class="single-item-carousel owl-carousel owl-theme">
-                                <figure class="image"><img src="/projects/Florence/assets/images/courses/bsc.png" alt=""></figure>    
+                                <figure class="image"><img src="/projects/Florence/assets/images/courses/post.png" alt=""></figure>    
                             </div>
                         </div>
                         <div class="inner-column">

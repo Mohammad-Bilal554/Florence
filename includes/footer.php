@@ -333,6 +333,114 @@
         });
     });
 </script>
+<script>
+    const itemsPerPage = 3;
+    const events = document.querySelectorAll('#eventContainer > div');
+    const totalPages = Math.ceil(events.length / itemsPerPage);
+
+    let currentPage = 1;
+
+    function showPage(page) {
+        events.forEach((event, index) => {
+            event.style.display =
+                index >= (page - 1) * itemsPerPage && index < page * itemsPerPage
+                    ? 'block'
+                    : 'none';
+        });
+
+        document.getElementById('pageInfo').innerText =
+            `Page ${currentPage} of ${totalPages}`;
+
+        document.getElementById('prevBtn').disabled = currentPage === 1;
+        document.getElementById('nextBtn').disabled = currentPage === totalPages;
+    }
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+        if (currentPage > 1) {
+            currentPage--;
+            showPage(currentPage);
+        }
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+        if (currentPage < totalPages) {
+            currentPage++;
+            showPage(currentPage);
+        }
+    });
+
+    // Initial load
+    showPage(currentPage);
+</script>
+<script>
+    function openLightbox(element) {
+        const imgSrc = element.querySelector('img').src;
+        document.getElementById('lightbox-img').src = imgSrc;
+        document.getElementById('lightbox').style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Stop scrolling when gallery is open
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox').style.display = 'none';
+        document.body.style.overflow = 'auto'; // Enable scrolling again
+    }
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === "Escape") closeLightbox();
+    });
+</script>
+
+
+<script>
+(function () {
+    const galleryItemsPerPage = 8;
+    const galleryItems = document.querySelectorAll('#galleryGrid .gallery-item');
+    const galleryTotalPages = Math.ceil(galleryItems.length / galleryItemsPerPage);
+
+    let galleryCurrentPage = 1;
+
+    function showGalleryPage(page) {
+        galleryItems.forEach((item, index) => {
+            item.style.display =
+                index >= (page - 1) * galleryItemsPerPage &&
+                index < page * galleryItemsPerPage
+                    ? 'block'
+                    : 'none';
+        });
+
+        document.getElementById('galleryPageInfo').innerText =
+            `Page ${galleryCurrentPage} of ${galleryTotalPages}`;
+
+        document.getElementById('galleryPrev').disabled =
+            galleryCurrentPage === 1;
+
+        document.getElementById('galleryNext').disabled =
+            galleryCurrentPage === galleryTotalPages;
+    }
+
+    document.getElementById('galleryPrev').addEventListener('click', function () {
+        if (galleryCurrentPage > 1) {
+            galleryCurrentPage--;
+            showGalleryPage(galleryCurrentPage);
+        }
+    });
+
+    document.getElementById('galleryNext').addEventListener('click', function () {
+        if (galleryCurrentPage < galleryTotalPages) {
+            galleryCurrentPage++;
+            showGalleryPage(galleryCurrentPage);
+        }
+    });
+
+    // Initial load
+    showGalleryPage(galleryCurrentPage);
+})();
+</script>
+
+
+
+
 </body>
 
 </html>
