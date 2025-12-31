@@ -438,9 +438,71 @@
 })();
 </script>
 
+<script>
+(function () {
+    const cardsPerPage = 6;
+    const blogCards = document.querySelectorAll('#blogGrid .blog-card');
+    const pageButtons = document.querySelectorAll('.page-btn');
+    const totalPages = Math.ceil(blogCards.length / cardsPerPage);
 
+    let currentPage = 1;
 
+    function showPage(page) {
+        blogCards.forEach((card, index) => {
+            card.style.display =
+                index >= (page - 1) * cardsPerPage &&
+                index < page * cardsPerPage
+                    ? 'block'
+                    : 'none';
+        });
 
+        // Update active button
+        pageButtons.forEach(btn => btn.classList.remove('active'));
+        pageButtons.forEach(btn => {
+            if (btn.innerText == page) {
+                btn.classList.add('active');
+            }
+        });
+
+        // Handle arrow disable
+        pageButtons[0].classList.toggle('disabled', page === 1);
+        pageButtons[pageButtons.length - 1].classList.toggle('disabled', page === totalPages);
+    }
+
+    pageButtons.forEach(btn => {
+        btn.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            if (this.classList.contains('disabled')) return;
+
+            if (this.innerText === '‹' || this.innerHTML.includes('chevron-left')) {
+                if (currentPage > 1) currentPage--;
+            } 
+            else if (this.innerText === '›' || this.innerHTML.includes('chevron-right')) {
+                if (currentPage < totalPages) currentPage++;
+            } 
+            else {
+                currentPage = parseInt(this.innerText);
+            }
+
+            showPage(currentPage);
+        });
+    });
+
+    // Initial load
+    showPage(currentPage);
+})();
+</script>
+
+<script>
+window.onscroll = function() {
+    let winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    let height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let scrolled = (winScroll / height) * 100;
+    let bar = document.getElementById("blogProgress");
+    if (bar) bar.style.width = scrolled + "%";
+};
+</script>
 </body>
 
 </html>

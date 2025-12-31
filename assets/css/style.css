@@ -2367,12 +2367,13 @@ section:hover .section-title h2::before{width: 100px;}
 .services-icon i {
     font-size: 48px;
 border-radius: 50%;
-color: #ff4328;
+color: #253c80;
 text-align: center;
 width: 100px;
 height: 100px;
 line-height: 100px;
-border: 1px solid #ff4328;
+border: 1px solid #253c80;
+margin-bottom: 20px;
 }
 .services-two .services-icon {
 display: inline-block;
@@ -2690,11 +2691,11 @@ border-radius: 10px;
     color: #fff;
 }
 .services-area .services-box {
-background: #eff7ff;
+background: rgba(37, 60, 128, 0.44);
 padding: 50px;
 }
 .services-area .services-box:hover,.services-area .services-box.active {
-background: #fff7ef;
+background: rgb(95, 157, 161,0.44);
 }
 .services-box .services-content2{
     transition: .3s;
@@ -12483,3 +12484,279 @@ color: #fff;
     @media (max-width: 768px) {
         .gallery-container { padding: 40px 5%; }
     }
+
+
+
+
+
+
+    :root {
+        --primary-blue: #253c80;
+        --accent-teal: #5ba4a4;
+        --text-gray: #666;
+        --bg-light: #f4f7f7;
+    }
+
+    .blog-section {
+        padding: 60px 10%;
+        background-color: var(--bg-light);
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .blog-header {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .blog-header h2 {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    /* Grid System */
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    .blog-card {
+        background: #fff;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 0px 15px rgba(37,60,128,0.5);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        flex-direction: column;
+        max-width: 380px;
+    }
+
+    .blog-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    }
+
+    .blog-img {
+        width: 100%;
+        height: 220px;
+        position: relative;
+    }
+
+    .blog-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .category-badge {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        background: var(--accent-teal);
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+    }
+
+    .blog-content {
+        padding: 25px;
+    }
+
+    .blog-date {
+        font-size: 0.85rem;
+        color: var(--accent-teal);
+        font-weight: 500;
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    .blog-content h3 {
+        color: var(--primary-blue);
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .blog-content p {
+        color: var(--text-gray);
+        font-size: 0.9rem;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .read-more {
+        color: var(--primary-blue);
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 0.9rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        transition: 0.3s;
+    }
+
+    .read-more:hover {
+        color: var(--accent-teal);
+    }
+
+    /* Pagination Styles */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .page-btn {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background: white;
+        color: var(--primary-blue);
+        cursor: pointer;
+        transition: 0.3s;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .page-btn.active, .page-btn:hover {
+        background: var(--accent-teal);
+        color: white;
+        border-color: var(--accent-teal);
+    }
+
+    .page-btn.disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    @media (max-width: 768px) {
+        .blog-section { padding: 40px 5%; }
+        .blog-header h2 { font-size: 2rem; }
+    }
+
+
+
+
+
+ /* Base Container */
+.blog-detail-simple {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* Reading Progress Bar */
+.reading-progress-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    z-index: 999;
+}
+
+.reading-progress-bar {
+    height: 100%;
+    background: #5ba4a4;
+    width: 0%;
+}
+
+/* Shared Width Wrapper */
+.content-wrap {
+    max-width: 900px;       /* CHANGE THIS to control image + text width */
+    margin: 70px auto 80px;
+    padding: 0 20px;
+}
+
+/* Header */
+.detail-header h1 {
+    font-size: 2.5rem;
+    color: #003366;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.author-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.author-meta img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Featured Image */
+.feature-img-wrapper img {
+    width: 100%;
+    display: block;
+    border-radius: 14px;
+    margin: 40px 0;
+}
+
+/* Body Content */
+.detail-body {
+    font-size: 1.15rem;
+}
+
+.lead-text {
+    font-size: 1.3rem;
+    color: #444;
+    font-weight: 500;
+    border-left: 4px solid #5ba4a4;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.detail-body h2 {
+    margin-top: 40px;
+    color: #003366;
+}
+
+/* Tags */
+.post-tags {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+.post-tags a {
+    display: inline-block;
+    text-decoration: none;
+    color: #777;
+    background: #f4f4f4;
+    padding: 6px 14px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-right: 8px;
+    transition: 0.3s;
+}
+
+.post-tags a:hover {
+    background: #5ba4a4;
+    color: #fff;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .detail-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .detail-body {
+        font-size: 1.05rem;
+    }
+}

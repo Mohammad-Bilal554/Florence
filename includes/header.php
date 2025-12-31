@@ -149,15 +149,15 @@ $BASE_URL = "/Projects/Florence/";
                                             </ul>
                                         </li>
                                         <li class="has-sub">
-                                            <a href="blog.html">Blog</a>
-                                            <ul>
+                                            <a href="/projects/Florence/pages/blog.php">Blog</a>
+                                            <!-- <ul>
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
 
 
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="/projects/Florence/pages/contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>

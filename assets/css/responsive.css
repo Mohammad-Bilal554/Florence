@@ -615,7 +615,7 @@ margin-right: 8px;
 @media (min-width: 1500px) and (max-width: 1742px) {
     .header-social {
     margin-left: 0px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
     .steps-area{
         overflow: hidden
