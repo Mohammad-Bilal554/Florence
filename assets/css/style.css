@@ -657,7 +657,7 @@ color: #b8bfc3;
 }
 .top-btn:hover {
     background: transparent linear-gradient(90deg, #5f9ea10%, #5f9ea1100%) 0% 0% no-repeat padding-box;
-     color: #fff;
+    color: #fff;
 }
 .sticky-menu .logo{
     margin-top: 0;
@@ -4514,6 +4514,7 @@ margin-bottom: -8px;
    background: #f0f7ff;
     border-radius: 4px;
     transition: all 0.3s ease 0s;
+    box-shadow: 0 0px 20px #253c80;
 }
 .courses-item:hover{
    box-shadow: 1px 1.732px 60px 0px rgba(0, 0, 0, 0.1); 

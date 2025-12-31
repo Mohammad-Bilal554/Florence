@@ -31,9 +31,9 @@
                             </div>
                             <div class="footer-link">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html"> About</a></li>
-                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="/projects/Florence/index.php">Home</a></li>
+                                    <li><a href="/projects/Florence/pages/about.php"> About</a></li>
+                                    <li><a href="/projects/Florence/pages/courses.php">Courses</a></li>
                                     <li><a href="contact.html"> Contact Us</a></li>
                                     <li><a href="blog.html">Blog </a></li>
                                 </ul>

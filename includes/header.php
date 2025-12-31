@@ -128,24 +128,24 @@ $BASE_URL = "/Projects/Florence/";
                                         <li><a href="/projects/Florence/pages/about.php">About Us</a></li>
 
                                         <li class="has-sub">
-                                            <a href="courses.html">Courses</a>
-                                            <ul>
-                                                <li><a href="courses.html">Courses</a></li>
+                                            <a href="/projects/Florence/pages/courses.php">Courses</a>
+                                            <!-- <ul>
+                                                <li><a href="/projects/Florence/pages/courses.php">Courses</a></li>
                                                 <li> <a href="courses-2.html">Courses 02</a></li>
                                                 <li> <a href="single-courses.html">Course Details</a></li>
                                                 <li> <a href="single-courses-2.html">Course Details 02</a></li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li class="has-sub"><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="event.html">Event</a></li>
-                                                <li><a href="single-event.html">Event Details</a></li>
+                                                <li><a href="event.html">Events</a></li>
+                                                <!-- <li><a href="single-event.html">Event Details</a></li> -->
                                                 <li><a href="projects.html">Gallery</a></li>
-                                                <li><a href="pricing.html">Pricing</a></li>
-                                                <li><a href="faq.html">Faq</a></li>
-                                                <li><a href="team.html">Teacher</a></li>
-                                                <li><a href="team-single.html">Teacher Details</a></li>
-                                                <li><a href="404-error.html">404 Error</a></li>
+                                                <!-- <li><a href="pricing.html">Pricing</a></li> -->
+                                                <!-- <li><a href="faq.html">Faq</a></li> -->
+                                                <!-- <li><a href="team.html">Teacher</a></li> -->
+                                                <!-- <li><a href="team-single.html">Teacher Details</a></li> -->
+                                                <!-- <li><a href="404-error.html">404 Error</a></li> -->
                                             </ul>
                                         </li>
                                         <li class="has-sub">
