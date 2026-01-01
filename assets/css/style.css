@@ -4875,7 +4875,7 @@ right: 0;
 /* 13. cta */
 .cta-bg {
 	position: relative;
-	/* background-size: cover; */
+	background-size: cover;
 	background-position: center;
 	z-index: 1;
 }

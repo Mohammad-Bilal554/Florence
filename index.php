@@ -209,112 +209,111 @@
         </div>
     </section>
     <!-- about-area-end -->
-    <!-- courses-area -->
-    <section class="courses pt-120 pb-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title text-center mb-50">
-                        <h5><i class="fa-solid fa-graduation-cap"></i> Our Courses</h5>
-                        <h2>Programs Offered</h2>
+          <!-- courses-area -->
+      <section class="courses pt-120 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-title text-center mb-50">
+                    <h5><i class="fa-solid fa-graduation-cap"></i> Our Courses</h5>
+                    <h2>Programs Offered</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row courses-row">
+            <!-- Card 1 -->
+            <div class="col-lg-4 col-md-6 mb-30">
+                <div class="courses-item">
+                    <div class="thumb">
+                        <img src="<?= IMG_URL ?>courses/bsc.png" alt="B.Sc Nursing">
+                    </div>
+
+                    <div class="courses-content">
+                        <span class="cat">
+                            <i class="fal fa-graduation-cap"></i> Nursing
+                        </span>
+
+                        <h3>B.Sc Nursing</h3>
+
+                        <p>
+                            A comprehensive undergraduate program focused on professional nursing skills and
+                            clinical excellence.
+                        </p>
+
+                        <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
+                            Read More <i class="fa-solid fa-long-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-solid fa-user-graduate"></i>
                     </div>
                 </div>
             </div>
 
-            <div class="row courses-row">
-                <!-- Card 1 -->
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <div class="courses-item">
-                        <div class="thumb">
-                            <img src="<?= IMG_URL ?>/courses/bsc.png" alt="B.Sc Nursing">
-                        </div>
+            <!-- Card 2 -->
+            <div class="col-lg-4 col-md-6 mb-30">
+                <div class="courses-item">
+                    <div class="thumb">
+                        <img src="<?= IMG_URL ?>courses/diploma.png" alt="Diploma Nursing">
+                    </div>
 
-                        <div class="courses-content">
-                            <span class="cat">
-                                <i class="fal fa-graduation-cap"></i> Nursing
-                            </span>
+                    <div class="courses-content">
+                        <span class="cat">
+                            <i class="fal fa-graduation-cap"></i> Nursing
+                        </span>
 
-                            <h3>B.Sc Nursing</h3>
+                        <h3>Diploma in General Nursing</h3>
 
-                            <p>
-                                A comprehensive undergraduate program focused on professional nursing skills and
-                                clinical excellence.
-                            </p>
+                        <p>
+                            A practice-oriented program preparing students for essential patient care and
+                            healthcare services.
+                        </p>
 
-                            <a href="#" class="readmore">
-                                Read More <i class="fa-solid fa-long-arrow-right"></i>
-                            </a>
-                        </div>
+                        <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
+                            Read More <i class="fa-solid fa-long-arrow-right"></i>
+                        </a>
+                    </div>
 
-                        <div class="icon">
-                            <i class="fa-solid fa-user-graduate"></i>
-                        </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-user-graduate"></i>
                     </div>
                 </div>
+            </div>
 
-                <!-- Card 2 -->
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <div class="courses-item">
-                        <div class="thumb">
-                            <img src="<?= IMG_URL ?>/courses/diploma.png" alt="Diploma Nursing">
-                        </div>
-
-                        <div class="courses-content">
-                            <span class="cat">
-                                <i class="fal fa-graduation-cap"></i> Nursing
-                            </span>
-
-                            <h3>Diploma in General Nursing</h3>
-
-                            <p>
-                                A practice-oriented program preparing students for essential patient care and
-                                healthcare services.
-                            </p>
-
-                            <a href="#" class="readmore">
-                                Read More <i class="fa-solid fa-long-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-user-graduate"></i>
-                        </div>
+            <!-- Card 3 -->
+            <div class="col-lg-4 col-md-6 mb-30">
+                <div class="courses-item">
+                    <div class="thumb">
+                        <img src="<?= IMG_URL ?>courses/post.png" alt="Post Basic Nursing">
                     </div>
-                </div>
 
-                <!-- Card 3 -->
-                <div class="col-lg-4 col-md-6 mb-30">
-                    <div class="courses-item">
-                        <div class="thumb">
-                            <img src="<?= IMG_URL ?>/courses/post.png" alt="Post Basic Nursing">
-                        </div>
+                    <div class="courses-content">
+                        <span class="cat">
+                            <i class="fal fa-graduation-cap"></i> Nursing
+                        </span>
 
-                        <div class="courses-content">
-                            <span class="cat">
-                                <i class="fal fa-graduation-cap"></i> Nursing
-                            </span>
+                        <h3>Post Basic B.Sc. Nursing</h3>
 
-                            <h3>Post Basic B.Sc. Nursing</h3>
+                        <p>
+                            An advanced program designed to enhance clinical knowledge and career growth for
+                            nursing professionals.
+                        </p>
 
-                            <p>
-                                An advanced program designed to enhance clinical knowledge and career growth for
-                                nursing professionals.
-                            </p>
+                        <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
+                            Read More <i class="fa-solid fa-long-arrow-right"></i>
+                        </a>
+                    </div>
 
-                            <a href="#" class="readmore">
-                                Read More <i class="fa-solid fa-long-arrow-right"></i>
-                            </a>
-                        </div>
-
-                        <div class="icon">
-                            <i class="fa-solid fa-user-graduate"></i>
-                        </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-user-graduate"></i>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+    </div>
+</section>
     <!-- courses-area -->
     <!-- steps-area -->
     <section class="steps-area p-relative pt-60 pb-60" style="background-color: #253c80;">
@@ -386,37 +385,46 @@
         </div>
     </section>
     <!-- steps-area-end -->
+
+
     <!-- event-area -->
+       <!-- event-area -->
     <section class="event pt-120 pb-90 p-relative fix">
-        <div class="animations-06"><img src="<?= IMG_URL ?>/bg/an-img-sixth.png" alt="an-img-01"></div>
-        <div class="animations-07"><img src="<?= IMG_URL ?>/bg/an-img-seventh.png" alt="contact-bg-an-01"></div>
-        <div class="animations-08"><img src="<?= IMG_URL ?>/bg/an-img-eighth.png" alt="contact-bg-an-01"></div>
-        <div class="animations-09"><img src="<?= IMG_URL ?>/bg/an-img-ninth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-06"><img src="<?= IMG_URL ?>bg/an-img-sixth.png" alt="an-img-01">
+        </div>
+        <div class="animations-07"><img src="<?= IMG_URL ?>bg/an-img-seventh.png"
+                alt="contact-bg-an-01"></div>
+        <div class="animations-08"><img src="<?= IMG_URL ?>bg/an-img-eighth.png"
+                alt="contact-bg-an-01"></div>
+        <div class="animations-09"><img src="<?= IMG_URL ?>bg/an-img-ninth.png"
+                alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 p-relative">
-                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated"
-                        data-animation="fadeInDown" data-delay=".4s">
-                        <h5><i class="fa-solid fa-graduation-cap"></i> Our Events</h5>
-                        <h2>
-                            Upcoming Events
-                        </h2>
+                    <div class="col-lg-12 p-relative">
+                        <div class="section-title center-align mb-50 text-center wow fadeInDown animated"
+                            data-animation="fadeInDown" data-delay=".4s">
+                            <h5><i class="fa-solid fa-graduation-cap"></i> Our Events</h5>
+                            <h2>
+                                Upcoming Events
+                            </h2>
 
+                        </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="row">
+                </div>
+            <div class="row" id="eventContainer">
 
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_one.png"
+                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                                    src="<?= IMG_URL ?>main_page/event_one.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
-                            <div class="date"><strong>28</strong> December, 2025</div>
-                            <h3><a href="single-event.html"> World Health Day Awareness Program</a></h3>
+                            <div class="date"><strong>28</strong> Dec, 2025</div>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> World Health Day Awareness
+                                    Program</a></h3>
                             <p>An awareness event promoting healthy living, preventive care, and public health
                                 education.</p>
                             <div class="time">3:30 pm - 4:30 pm <i class="fa-solid fa-long-arrow-right"></i>
@@ -428,12 +436,14 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_two.png"
+                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                                    src="<?= IMG_URL ?>main_page/event_two.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
-                            <div class="date"><strong>2</strong> January, 2026</div>
-                            <h3><a href="single-event.html">Clinical Skills & Simulation Workshop</a>
+                            <div class="date"><strong>2</strong> Jan, 2026</div>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php">Clinical Skills & Simulation
+                                    Workshop</a>
                             </h3>
                             <p>A practical training session to strengthen essential nursing and patient-care skills.
                             </p>
@@ -446,12 +456,14 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_three.png"
+                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                                    src="<?= IMG_URL ?>main_page/event_three.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
-                            <div class="date"><strong>15</strong> January, 2026</div>
-                            <h3><a href="single-event.html"> Community Health Outreach Camp</a></h3>
+                            <div class="date"><strong>15</strong> Jan, 2026</div>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
                             <div class="time">3:30 pm - 4:30 pm <i class="fa-solid fa-long-arrow-right"></i>
@@ -460,58 +472,58 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="event-item mb-30 hover-zoomin">
-                            <div class="thumb">
-                                <a href="single-event.html"><img src="img/bg/evn-img-4.jpg" alt="contact-bg-an-01"></a>
-                            </div>
-                            <div class="event-content">
-                                <div class="date"><strong>22</strong> March, 2023</div>
-                                <h3><a href="single-event.html"> Next-Gen Higher Education Students Have Arrived?</a>
-                                </h3>
-                                <p>Seamlessly visualize quality ellectual capital without superior collaboration and
-                                    idea tically</p>
-                                <div class="time">3:30 pm - 4:30 pm <i class="fal fa-long-arrow-right"></i>
-                                    <strong>United Kingdom</strong>
-                                </div>
+
+
+                <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="event-item mb-30 hover-zoomin">
+                        <div class="thumb">
+                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                                    src="<?= IMG_URL ?>main_page/event_three.png"
+                                    alt="contact-bg-an-01"></a>
+                        </div>
+                        <div class="event-content">
+                            <div class="date"><strong>15</strong> Jan, 2026</div>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            </h3>
+                            <p>A health outreach program providing basic check-ups and health guidance to the
+                                community.</p>
+                            <div class="time">3:30 pm - 4:30 pm <i class="fa-solid fa-long-arrow-right"></i>
+                                <strong>Bentley Campus, Perth, WA</strong>
                             </div>
                         </div>
-                    </div> -->
-                <!-- <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="event-item mb-30 hover-zoomin">
-                            <div class="thumb">
-                                <a href="single-event.html"><img src="img/bg/evn-img-5.jpg" alt="contact-bg-an-01"></a>
-                            </div>
-                            <div class="event-content">
-                                <div class="date"><strong>24</strong> March, 2023</div>
-                                <h3><a href="single-event.html"> Digital Art & 3D Model – a future for film company</a>
-                                </h3>
-                                <p>Seamlessly visualize quality ellectual capital without superior collaboration and
-                                    idea tically</p>
-                                <div class="time">3:30 pm - 4:30 pm <i class="fal fa-long-arrow-right"></i>
-                                    <strong>United Kingdom</strong>
-                                </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    <div class="event-item mb-30 hover-zoomin">
+                        <div class="thumb">
+                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                                    src="<?= IMG_URL ?>main_page/event_three.png"
+                                    alt="contact-bg-an-01"></a>
+                        </div>
+                        <div class="event-content">
+                            <div class="date"><strong>15</strong> Jan, 2026</div>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            </h3>
+                            <p>A health outreach program providing basic check-ups and health guidance to the
+                                community.</p>
+                            <div class="time">3:30 pm - 4:30 pm <i class="fa-solid fa-long-arrow-right"></i>
+                                <strong>Bentley Campus, Perth, WA</strong>
                             </div>
                         </div>
-                    </div> -->
-                <!-- <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
-                        <div class="event-item mb-30 hover-zoomin">
-                            <div class="thumb">
-                                <a href="single-event.html"><img src="img/bg/evn-img-6.jpg" alt="contact-bg-an-01"></a>
-                            </div>
-                            <div class="event-content">
-                                <div class="date"><strong>30</strong> March, 2023</div>
-                                <h3><a href="single-event.html"> Conscious Discipline Summer Institute</a></h3>
-                                <p>Seamlessly visualize quality ellectual capital without superior collaboration and
-                                    idea tically</p>
-                                <div class="time">3:30 pm - 4:30 pm <i class="fal fa-long-arrow-right"></i>
-                                    <strong>United Kingdom</strong>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
+                    </div>
+                </div>
+
 
             </div>
+            <div class="pagination-wrapper text-center mt-4">
+                <button id="prevBtn" class="btn btn-outline-teal me-2">Prev</button>
+                <span id="pageInfo"></span>
+                <button id="nextBtn" class="btn btn-outline-teal ms-2">Next</button>
+            </div>
+
 
 
         </div>
@@ -534,7 +546,7 @@
                 <div class="col-lg-4 text-right">
                     <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated"
                         data-delay=".2s">
-                        <a href="about.html" class="btn ss-btn smoth-scroll">Financial Aid <i
+                        <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Financial Aid <i
                                 class="fa-solid fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -954,7 +966,7 @@ background-position: center;
                             committed to helping you begin a meaningful journey toward a trusted and fulfilling
                             career in nursing.</p>
                         <div class="slider-btn mt-20">
-                            <a href="about.html" class="btn ss-btn smoth-scroll">Contact Us <i
+                            <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Contact Us <i
                                     class="fa-solid fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -991,112 +1003,67 @@ background-position: center;
     </div>
     <!-- brand-area-end -->
     <!-- blog-area -->
-    <section id="blog" class="blog-area p-relative fix pt-120 pb-90"
-        style="background-image:url(img/bg/blog_bg.png); background-repeat: no-repeat; background-position: top;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated"
-                        data-animation="fadeInDown" data-delay=".4s">
-                        <h5><i class="fa-solid fa-graduation-cap"></i> Our Blog</h5>
-                        <h2>
-                            Latest Blog & News
-                        </h2>
+   
+<section class="blog-section">
+    <div class="blog-header">
+        <h2>Latest News & Articles</h2>
+        <p>Stay updated with the latest trends in nursing and healthcare education.</p>
+    </div>
 
-                    </div>
-
-                </div>
+    <div class="blog-grid" id="blogGrid">
+        <article class="blog-card">
+            <div class="blog-img">
+                <span class="category-badge">Education</span>
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Nursing Blog">
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp"
-                        data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-4.jpg" alt="img"></a>
-                            <div class="date-home">
-                                <i class="fal fa-calendar-alt"></i> 28th November 2025
-                            </div>
-                        </div>
-                        <div class="blog-content2">
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <!-- <li><i class="fal fa-user"></i> By Admin </li>
-                                            <li><i class="fal fa-comments"></i> 3 Comments</li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                            <h4><a href="blog-details.html">Building Strong Clinical Skills in Nursing Students</a>
-                            </h4>
-                            <p>Learn how hands-on training, clinical exposure, and evidence-based learning help
-                                nursing students develop confidence and professional competence.</p>
-                            <div class="blog-btn"><a href="blog-details.html">Read More <i
-                                        class="fa-solid fa-long-arrow-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp"
-                        data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-5.jpg" alt="img"></a>
-                            <div class="date-home">
-                                <i class="fal fa-calendar-alt"></i> 07th December 2025
-                            </div>
-                        </div>
-                        <div class="blog-content2">
-
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <!-- <li><i class="fal fa-user"></i> By Admin </li>
-                                            <li><i class="fal fa-comments"></i> 3 Comments</li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                            <h4><a href="blog-details.html">The Importance of Compassion in Nursing</a>
-                            </h4>
-                            <p>Compassion is at the heart of nursing care. This blog explores how empathy, kindness,
-                                and ethical practice shape better patient outcomes and stronger healthcare
-                                professionals.</p>
-                            <div class="blog-btn"><a href="blog-details.html">Read More <i
-                                        class="fa-solid fa-long-arrow-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp"
-                        data-delay=".4s">
-                        <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-1.jpg" alt="img"></a>
-                            <div class="date-home">
-                                <i class="fa-solid fa-calendar-alt"></i> 20th December 2025
-                            </div>
-                        </div>
-                        <div class="blog-content2">
-
-                            <div class="b-meta">
-                                <div class="meta-info">
-                                    <ul>
-                                        <!-- <li><i class="fal fa-user"></i> By Admin </li>
-                                            <li><i class="fal fa-comments"></i> 3 Comments</li> -->
-                                    </ul>
-                                </div>
-                            </div>
-                            <h4><a href="blog-details.html">Career Opportunities After Nursing Education</a>
-                            </h4>
-                            <p>Discover the wide range of career paths available after completing nursing education,
-                                from hospital care to community health and specialized clinical roles.</p>
-                            <div class="blog-btn"><a href="blog-details.html">Read More <i
-                                        class="fa-solid fa-long-arrow-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-
-
+            <div class="blog-content">
+                <span class="blog-date">October 12, 2025</span>
+                <h3>The Future of Nursing: Technology in Healthcare</h3>
+                <p>Explore how AI and robotics are reshaping the way nurses provide patient care in modern hospitals.</p>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-        </div>
-    </section>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">
+                <span class="category-badge">Career</span>
+                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80" alt="Career Tips">
+            </div>
+            <div class="blog-content">
+                <span class="blog-date">October 05, 2025</span>
+                <h3>Top 5 Skills Every Nursing Graduate Needs</h3>
+                <p>Beyond medical knowledge, soft skills like communication and empathy are vital for a successful career.</p>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <div class="blog-img">
+                <span class="category-badge">Health Tips</span>
+                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Health Tips">
+            </div>
+            <div class="blog-content">
+                <span class="blog-date">September 28, 2025</span>
+                <h3>Community Health: A Nurse’s Perspective</h3>
+                <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+       
+
+     
+        
+    </div>
+
+    <div class="pagination">
+        <a href="#" class="page-btn disabled"><i class="fa-solid fa-chevron-left"></i></a>
+        <a href="#" class="page-btn active">1</a>
+        <a href="#" class="page-btn">2</a>
+        <a href="#" class="page-btn">3</a>
+        <a href="#" class="page-btn"><i class="fa-solid fa-chevron-right"></i></a>
+    </div>
+</section>
     <!-- blog-area-end -->
 
     <!-- newslater-area -->

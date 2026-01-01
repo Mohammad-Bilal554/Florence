@@ -32,6 +32,7 @@
         </div>
     </section>
     <!-- breadcrumb-area-end -->
+     
     <!-- event-area -->
     <section class="event pt-120 pb-90 p-relative fix">
         <div class="animations-06"><img src="<?= IMG_URL ?>bg/an-img-sixth.png" alt="an-img-01">
@@ -173,103 +174,28 @@
         </div>
     </section>
     <!-- courses-area -->
-    <!-- brand-area -->
-    <div class="brand-area pt-60 pb-60" style="background-color:#125875">
+  <!-- brand-area -->
+    <div class="brand-area pt-60 pb-60" style="background-color:#5f9ea1">
         <div class="container">
-            <div class="row brand-active slick-initialized slick-slider">
-                <div class="slick-list draggable">
-                    <div class="slick-track"
-                        style="opacity: 1; width: 4620px; transform: translate3d(-1650px, 0px, 0px); transition: transform 1000ms;">
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo2.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo3.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo4.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo5.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1"
-                            style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo1.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide" data-slick-index="1" aria-hidden="true" tabindex="-1"
-                            style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo2.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide" data-slick-index="2" aria-hidden="true" tabindex="0"
-                            style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo3.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide" data-slick-index="3" aria-hidden="true" tabindex="0"
-                            style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo4.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-current slick-active" data-slick-index="4"
-                            aria-hidden="false" tabindex="0" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo5.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned slick-active" data-slick-index="5" id=""
-                            aria-hidden="false" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo1.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned slick-active" data-slick-index="6" id=""
-                            aria-hidden="false" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo2.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned slick-active" data-slick-index="7" id=""
-                            aria-hidden="false" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo3.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="8" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo4.png" alt="img">
-                            </div>
-                        </div>
-                        <div class="col-xl-2 slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true"
-                            tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./events_files/b-logo5.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
+            <div class="brand-active">
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
                 </div>
-
-
-
-
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
+                </div>
             </div>
         </div>
     </div>

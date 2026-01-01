@@ -202,25 +202,25 @@
                                             </div>
                                         </li>
                                         <li>
-                                          <span class="icon fal fa-home-lg-alt"></span> <strong>Instructor:</strong> <span>Eleanor Fant</span>
+                                          <span class="icon fa-solid fa-home-lg-alt"></span> <strong>Instructor:</strong> <span>Eleanor Fant</span>
                                         </li>
 
                                         <li>
-                                          <span class="icon fal fa-book"></span> <strong>Lectures:</strong> <span>14</span>
+                                          <span class="icon fa-solid fa-book"></span> <strong>Lectures:</strong> <span>14</span>
                                         </li>
 
                                         <li>
-                                            <span class="icon fal fa-clock"></span> <strong>Duration: </strong> <span>4 years</span>
+                                            <span class="icon fa-solid fa-clock"></span> <strong>Duration: </strong> <span>4 years</span>
                                         </li>
                                          <li>
-                                            <span class="icon fal fa-user"></span> <strong>Enrolled: </strong> <span>20 students</span>
+                                            <span class="icon fa-solid fa-user"></span> <strong>Enrolled: </strong> <span>20 students</span>
                                         </li>
                                          <li>
-                                            <span class="icon fal fa-globe"></span> <strong>Language: </strong> <span>English</span>
+                                            <span class="icon fa-solid fa-globe"></span> <strong>Language: </strong> <span>English</span>
                                         </li>
                                         <li>
                                             <div class="slider-btn">                                          
-                                                 <a href="<?= BASE_URL ?>pages.contact.php" class="btn ss-btn smoth-scroll">Enroll <i class="fal fa-long-arrow-right"></i></a>				
+                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Enroll <i class="fal fa-long-arrow-right"></i></a>				
                                             </div>
                                         </li>
                                        
@@ -243,73 +243,32 @@
     </section>
     <!--End Project Detail -->
             <!-- brand-area -->
-            <div class="brand-area pt-60 pb-60" style="background-color:#125875">
-                <div class="container">
-                    <div class="row brand-active slick-initialized slick-slider">
-                        <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4620px; transform: translate3d(-1980px, 0px, 0px); transition: transform 1000ms;"><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-4" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo2.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-3" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo3.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-2" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                  <img src="./courses_details_files/b-logo4.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="-1" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo5.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide" data-slick-index="0" aria-hidden="true" tabindex="0" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./courses_details_files/b-logo1.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide" data-slick-index="1" aria-hidden="true" tabindex="0" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo2.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-current slick-active" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo3.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-active" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 330px;">
-                            <div class="single-brand">
-                                  <img src="./courses_details_files/b-logo4.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-active" data-slick-index="4" aria-hidden="false" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo5.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned slick-active" data-slick-index="5" id="" aria-hidden="false" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                <img src="./courses_details_files/b-logo1.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="6" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo2.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="7" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo3.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="8" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                  <img src="./courses_details_files/b-logo4.png" alt="img">
-                            </div>
-                        </div><div class="col-xl-2 slick-slide slick-cloned" data-slick-index="9" id="" aria-hidden="true" tabindex="-1" style="width: 330px;">
-                            <div class="single-brand">
-                                 <img src="./courses_details_files/b-logo5.png" alt="img">
-                            </div>
-                        </div></div></div>
-                        
-                        
-                        
-                        
-                    </div>
+      <!-- brand-area -->
+    <div class="brand-area pt-60 pb-60" style="background-color:#5f9ea1">
+        <div class="container">
+            <div class="brand-active">
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
+                </div>
+                <div class="single-brand">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- brand-area-end -->
             <!-- brand-area-end -->        
         </main>
         <!-- main-area-end -->
