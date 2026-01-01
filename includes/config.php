@@ -1,26 +1,25 @@
 <?php
 /**
  * Global Configuration File
- * Works on Local (XAMPP) + Render
+ * Florence College of Nursing
  */
 
 /* ===============================
-   AUTO BASE URL
+   FORCE HTTPS BASE URL
    =============================== */
 
-$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
 
-// Detect localhost
+// Local XAMPP
 if ($host === 'localhost') {
-    // XAMPP project path
-    $basePath = "/Projects/FLORENCE/";
-} else {
-    // Render or live server
-    $basePath = "/";
+    $baseUrl = "http://localhost/Projects/FLORENCE/";
+} 
+// Render / Live
+else {
+    $baseUrl = "https://" . $host . "/";
 }
 
-define("BASE_URL", $protocol . $host . $basePath);
+define("BASE_URL", $baseUrl);
 
 
 /* ===============================

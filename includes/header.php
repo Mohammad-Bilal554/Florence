@@ -187,7 +187,7 @@
     <div class="offcanvas-menu">
         <span class="menu-close"><i class="fas fa-times"></i></span>
         <form role="search" method="get" id="searchform" class="searchform"
-            action="http://wordpress.zcube.in/xconsulta/">
+            action="">
             <input type="text" name="s" id="search" placeholder="Search" />
             <button><i class="fa fa-search"></i></button>
         </form>
