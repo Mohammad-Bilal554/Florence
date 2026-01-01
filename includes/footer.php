@@ -243,48 +243,51 @@
                 ]
             });
 
-            // brand-active
-            $('.brand-active').slick({
-                dots: false,
-                infinite: true,
-                autoplay: true,
-                arrows: false,
-                speed: 1000,
-                slidesToShow: 5,
-                slidesToScroll: 1,
-                responsive: [
-                    {
-                        breakpoint: 1200,
-                        settings: {
-                            slidesToShow: 4,
-                            slidesToScroll: 1,
-                            infinite: true,
-                            dots: false
-                        }
-                    },
-                    {
-                        breakpoint: 992,
-                        settings: {
-                            slidesToShow: 3,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 767,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
+ // brand-active
+$('.brand-active').slick({
+    dots: false,
+    infinite: true,
+    arrows: false,
+
+    autoplay: true,
+    autoplaySpeed: 0,   // time between slides (ms)
+    speed: 3000,           // slide transition speed
+
+    slidesToShow: 5,
+    slidesToScroll: 1,
+
+    pauseOnHover: false,   // keeps autoplay running on hover
+    pauseOnFocus: false,   // prevents pause on click/focus
+    cssEase: 'linear',
+
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1
+            }
+        }
+    ]
+});
+
 
             // class-active
             $('.class-active').slick({

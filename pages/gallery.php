@@ -65,12 +65,50 @@
                 <span>Clinical Training</span>
             </div>
         </div>
-
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1516533075015-a3838414c3ca?auto=format&fit=crop&w=600&q=80" alt="Library">
+         <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Simulation Lab">
             <div class="gallery-overlay">
                 <i class="fa-solid fa-search-plus"></i>
-                <span>Central Library</span>
+                <span>Modern Simulation Lab</span>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Anatomy Class">
+            <div class="gallery-overlay">
+                <i class="fa-solid fa-search-plus"></i>
+                <span>Anatomy Practice</span>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Hospital Visit">
+            <div class="gallery-overlay">
+                <i class="fa-solid fa-search-plus"></i>
+                <span>Clinical Training</span>
+            </div>
+        </div>
+         <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Simulation Lab">
+            <div class="gallery-overlay">
+                <i class="fa-solid fa-search-plus"></i>
+                <span>Modern Simulation Lab</span>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Anatomy Class">
+            <div class="gallery-overlay">
+                <i class="fa-solid fa-search-plus"></i>
+                <span>Anatomy Practice</span>
+            </div>
+        </div>
+
+        <div class="gallery-item" onclick="openLightbox(this)">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Hospital Visit">
+            <div class="gallery-overlay">
+                <i class="fa-solid fa-search-plus"></i>
+                <span>Clinical Training</span>
             </div>
         </div>
          <div class="gallery-item" onclick="openLightbox(this)">
@@ -97,59 +135,8 @@
             </div>
         </div>
 
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1516533075015-a3838414c3ca?auto=format&fit=crop&w=600&q=80" alt="Library">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Central Library</span>
-            </div>
-        </div>
-         <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Simulation Lab">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Modern Simulation Lab</span>
-            </div>
-        </div>
 
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Anatomy Class">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Anatomy Practice</span>
-            </div>
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80" alt="Hospital Visit">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Clinical Training</span>
-            </div>
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1516533075015-a3838414c3ca?auto=format&fit=crop&w=600&q=80" alt="Library">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Central Library</span>
-            </div>
-        </div>
-         <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?auto=format&fit=crop&w=600&q=80" alt="Simulation Lab">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Modern Simulation Lab</span>
-            </div>
-        </div>
-
-        <div class="gallery-item" onclick="openLightbox(this)">
-            <img src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80" alt="Anatomy Class">
-            <div class="gallery-overlay">
-                <i class="fa-solid fa-search-plus"></i>
-                <span>Anatomy Practice</span>
-            </div>
-        </div>
+       
         
     </div>
 </section>

@@ -2869,6 +2869,18 @@ background-color: rgba(18, 88, 117, 0.85);
     margin-top: 20px;
 }
 
+/* --- Contact Page: Equal Height Service Boxes --- */
+#services.services-area .col-lg-4,
+#services.services-area .col-md-4 {
+    display: flex;
+}
+#services.services-area .services-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 .text p {
 text-align: justify;
