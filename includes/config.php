@@ -1,16 +1,26 @@
 <?php
 /**
  * Global Configuration File
- * Project: FLORENCE
- * Environment: LOCAL (XAMPP)
+ * Works on Local (XAMPP) + Render
  */
 
 /* ===============================
-   BASE URL (LOCAL)
+   AUTO BASE URL
    =============================== */
 
-// Project folder name inside htdocs
-define("BASE_URL", "/Projects/FLORENCE/");
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https://" : "http://";
+$host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+
+// Detect localhost
+if ($host === 'localhost') {
+    // XAMPP project path
+    $basePath = "/Projects/FLORENCE/";
+} else {
+    // Render or live server
+    $basePath = "/";
+}
+
+define("BASE_URL", $protocol . $host . $basePath);
 
 
 /* ===============================
@@ -20,11 +30,3 @@ define("BASE_URL", "/Projects/FLORENCE/");
 define("CSS_URL", BASE_URL . "assets/css/");
 define("JS_URL", BASE_URL . "assets/js/");
 define("IMG_URL", BASE_URL . "assets/images/");
-
-
-/* ===============================
-   FILE SYSTEM PATHS
-   =============================== */
-
-define("ROOT_PATH", dirname(__DIR__) . "/");
-define("INCLUDES_PATH", ROOT_PATH . "includes/");
