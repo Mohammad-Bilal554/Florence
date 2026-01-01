@@ -4,7 +4,7 @@
 <main>
     <!-- breadcrumb-area -->
     <section class="breadcrumb-area d-flex  p-relative align-items-center"
-        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(/projects/Florence/assets/images/bg/bg_first.png);">
+        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(<?= IMG_URL ?>/bg/bg_first.png);">
 
 
         <div class="container">
@@ -21,7 +21,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/projects/Florence/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Blogs</li>
                         </ol>
                     </nav>
@@ -52,7 +52,7 @@
                 <span class="blog-date">October 12, 2025</span>
                 <h3>The Future of Nursing: Technology in Healthcare</h3>
                 <p>Explore how AI and robotics are reshaping the way nurses provide patient care in modern hospitals.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -65,7 +65,7 @@
                 <span class="blog-date">October 05, 2025</span>
                 <h3>Top 5 Skills Every Nursing Graduate Needs</h3>
                 <p>Beyond medical knowledge, soft skills like communication and empathy are vital for a successful career.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -78,7 +78,7 @@
                 <span class="blog-date">September 28, 2025</span>
                 <h3>Community Health: A Nurse’s Perspective</h3>
                 <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -91,7 +91,7 @@
                 <span class="blog-date">September 28, 2025</span>
                 <h3>Community Health: A Nurse’s Perspective</h3>
                 <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -104,7 +104,7 @@
                 <span class="blog-date">September 28, 2025</span>
                 <h3>Community Health: A Nurse’s Perspective</h3>
                 <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
         <article class="blog-card">
@@ -116,7 +116,7 @@
                 <span class="blog-date">September 28, 2025</span>
                 <h3>Community Health: A Nurse’s Perspective</h3>
                 <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
 
@@ -129,7 +129,7 @@
                 <span class="blog-date">September 28, 2025</span>
                 <h3>Community Health: A Nurse’s Perspective</h3>
                 <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="/projects/Florence/pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </article>
         

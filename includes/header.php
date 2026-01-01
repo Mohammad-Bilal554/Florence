@@ -1,6 +1,5 @@
-<?php
-$BASE_URL = "/Projects/Florence/";
-?>
+<?php require_once __DIR__ . '/config.php'; ?>
+
 
 
 <!doctype html>
@@ -12,7 +11,7 @@ $BASE_URL = "/Projects/Florence/";
     <title>Florence Nightingale College Of Nursing</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/Projects/Florence/assets/images/icon/main_logo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="<?= IMG_URL ?>/icon/main_logo.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -22,16 +21,16 @@ $BASE_URL = "/Projects/Florence/";
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/animate.min.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/all.min.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/dripicons.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/slick.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/meanmenu.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/default.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/style.css">
-    <link rel="stylesheet" href="/Projects/Florence/assets/css/responsive.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>bootstrap.min.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>animate.min.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>/magnific-popup.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>all.min.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>dripicons.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>slick.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>meanmenu.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>default.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>style.css">
+    <link rel="stylesheet" href="<?= CSS_URL ?>responsive.css">
 
 
     <style>
@@ -109,7 +108,7 @@ $BASE_URL = "/Projects/Florence/";
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo" style="display:flex; align-items:center; gap:12px; min-width:0;">
                                 <a href="index.html" style="display:flex; align-items:center; flex-shrink:0;">
-                                    <img src="/Projects/Florence/assets/images/icon/main_logo.png" alt="logo"
+                                    <img src="<?= IMG_URL ?>/icon/main_logo.png" alt="logo"
                                         style="height:60px; width:auto; display:block;">
                                 </a>
                                 <h2 style="margin:0; font-size:25px; white-space:nowrap; color:#253c80">
@@ -124,13 +123,13 @@ $BASE_URL = "/Projects/Florence/";
 
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a href="/projects/Florence/index.php">Home</a></li>
-                                        <li><a href="/projects/Florence/pages/about.php">About Us</a></li>
+                                        <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                                        <li><a href="<?= BASE_URL ?>pages/about.php">About Us</a></li>
 
                                         <li class="has-sub">
-                                            <a href="/projects/Florence/pages/courses.php">Courses</a>
+                                            <a href="<?= BASE_URL ?>pages/courses.php">Courses</a>
                                             <!-- <ul>
-                                                <li><a href="/projects/Florence/pages/courses.php">Courses</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/courses.php">Courses</a></li>
                                                 <li> <a href="courses-2.html">Courses 02</a></li>
                                                 <li> <a href="single-courses.html">Course Details</a></li>
                                                 <li> <a href="single-courses-2.html">Course Details 02</a></li>
@@ -138,9 +137,9 @@ $BASE_URL = "/Projects/Florence/";
                                         </li>
                                         <li class="has-sub"><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="/projects/Florence/pages/event.php">Events</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/event.php">Events</a></li>
                                                 <!-- <li><a href="single-event.html">Event Details</a></li> -->
-                                                <li><a href="/projects/Florence/pages/gallery.php">Gallery</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/gallery.php">Gallery</a></li>
                                                 <!-- <li><a href="pricing.html">Pricing</a></li> -->
                                                 <!-- <li><a href="faq.html">Faq</a></li> -->
                                                 <!-- <li><a href="team.html">Teacher</a></li> -->
@@ -149,7 +148,7 @@ $BASE_URL = "/Projects/Florence/";
                                             </ul>
                                         </li>
                                         <li class="has-sub">
-                                            <a href="/projects/Florence/pages/blog.php">Blog</a>
+                                            <a href="<?= BASE_URL ?>pages/blog.php">Blog</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
@@ -157,7 +156,7 @@ $BASE_URL = "/Projects/Florence/";
                                         </li>
 
 
-                                        <li><a href="/projects/Florence/pages/contact.php">Contact</a></li>
+                                        <li><a href="<?= BASE_URL ?>pages/contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>

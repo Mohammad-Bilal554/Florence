@@ -31,9 +31,9 @@
                             </div>
                             <div class="footer-link">
                                 <ul>
-                                    <li><a href="/projects/Florence/index.php">Home</a></li>
-                                    <li><a href="/projects/Florence/pages/about.php"> About</a></li>
-                                    <li><a href="/projects/Florence/pages/courses.php">Courses</a></li>
+                                    <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/about.php"> About</a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/courses.php">Courses</a></li>
                                     <li><a href="contact.html"> Contact Us</a></li>
                                     <li><a href="blog.html">Blog </a></li>
                                 </ul>
@@ -109,7 +109,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="copy-text">
-                            <a href="index.html"><img src="/Projects/Florence/assets/images/icon/main_logo.png" alt="img"
+                            <a href="index.html"><img src="<?= IMG_URL ?>/icon/main_logo.png" alt="img"
                                     style="height: 60px; width: auto;"></a>
                         </div>
                     </div>
@@ -129,20 +129,20 @@
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 
     <!-- Plugins that depend on jQuery -->
-    <script src="/Projects/Florence/assets/js/popper.min.js"></script>
-    <script src="/Projects/Florence/assets/js/bootstrap.min.js"></script>
-    <script src="/Projects/Florence/assets/js/slick.min.js"></script>
-    <script src="/Projects/Florence/assets/js/jquery.meanmenu.min.js"></script>
-    <script src="/Projects/Florence/assets/js/jquery.counterup.min.js"></script>
-    <script src="/Projects/Florence/assets/js/jquery.waypoints.min.js"></script>
-    <script src="/Projects/Florence/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="/Projects/Florence/assets/js/jquery.scrollUp.min.js"></script>
+    <script src="<?= JS_URL ?>popper.min.js"></script>
+    <script src="<?= JS_URL ?>bootstrap.min.js"></script>
+    <script src="<?= JS_URL ?>slick.min.js"></script>
+    <script src="<?= JS_URL ?>jquery.meanmenu.min.js"></script>
+    <script src="<?= JS_URL ?>jquery.counterup.min.js"></script>
+    <script src="<?= JS_URL ?>jquery.waypoints.min.js"></script>
+    <script src="<?= JS_URL ?>jquery.magnific-popup.min.js"></script>
+    <script src="<?= JS_URL ?>jquery.scrollUp.min.js"></script>
 
     <!-- Others -->
-    <script src="/Projects/Florence/assets/js/wow.min.js"></script>
-    <script src="/Projects/Florence/assets/js/imagesloaded.min.js"></script>
-    <script src="/Projects/Florence/assets/js/js_isotope.pkgd.min.js"></script>
-    <script src="/Projects/Florence/assets/js/parallax.min.js"></script>
+    <script src="<?= JS_URL ?>wow.min.js"></script>
+    <script src="<?= JS_URL ?>imagesloaded.min.js"></script>
+    <script src="<?= JS_URL ?>js_isotope.pkgd.min.js"></script>
+    <script src="<?= JS_URL ?>parallax.min.js"></script>
 
     <script>
         (function ($) {

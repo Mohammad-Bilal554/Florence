@@ -6,7 +6,7 @@
             
                 <!-- breadcrumb-area -->
     <section class="breadcrumb-area d-flex  p-relative align-items-center"
-        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(/projects/Florence/assets/images/bg/bg_first.png);">
+        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(<?= IMG_URL ?>bg/bg_first.png);">
 
 
         <div class="container">
@@ -23,7 +23,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/projects/Florence/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Event Detail</li>
                         </ol>
                     </nav>
@@ -39,7 +39,7 @@
                     <!-- Upper Box -->
                     <div class="upper-box">
                         <div class="single-item-carousel owl-carousel owl-theme">
-                            <figure class="image"><img src="/projects/Florence/assets/images/main_page/event_one.png" alt=""></figure>                    
+                            <figure class="image"><img src="<?= IMG_URL ?>main_page/event_one.png" alt=""></figure>                    
                         </div>
                     </div>
 
@@ -122,7 +122,7 @@
                                         </li>
                                         <li>
                                             <div class="slider-btn">                                          
-                                                 <a href="/projects/Florence/pages/contact.php" class="btn ss-btn smoth-scroll">Book A Seat <i class="fal fa-long-arrow-right"></i></a>				
+                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Book A Seat <i class="fal fa-long-arrow-right"></i></a>				
                                             </div>
                                         </li>
                                     </ul>

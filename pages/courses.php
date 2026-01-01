@@ -5,7 +5,7 @@
             
             <!-- breadcrumb-area -->
     <section class="breadcrumb-area d-flex  p-relative align-items-center"
-        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(/projects/Florence/assets/images/bg/bg_first.png);">
+        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(<?= IMG_URL ?>bg/bg_first.png);">
 
 
         <div class="container">
@@ -22,7 +22,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/projects/Florence/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Courses</li>
                         </ol>
                     </nav>
@@ -51,7 +51,7 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="courses-item">
                     <div class="thumb">
-                        <img src="/projects/Florence/assets/images/courses/bsc.png" alt="B.Sc Nursing">
+                        <img src="<?= IMG_URL ?>courses/bsc.png" alt="B.Sc Nursing">
                     </div>
 
                     <div class="courses-content">
@@ -66,7 +66,7 @@
                             clinical excellence.
                         </p>
 
-                        <a href="/projects/Florence/pages/bsc-nursing.php" class="readmore">
+                        <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
                             Read More <i class="fa-solid fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -81,7 +81,7 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="courses-item">
                     <div class="thumb">
-                        <img src="/projects/Florence/assets/images/courses/diploma.png" alt="Diploma Nursing">
+                        <img src="<?= IMG_URL ?>courses/diploma.png" alt="Diploma Nursing">
                     </div>
 
                     <div class="courses-content">
@@ -96,7 +96,7 @@
                             healthcare services.
                         </p>
 
-                        <a href="/projects/Florence/pages/diploma.php" class="readmore">
+                        <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
                             Read More <i class="fa-solid fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -111,7 +111,7 @@
             <div class="col-lg-4 col-md-6 mb-30">
                 <div class="courses-item">
                     <div class="thumb">
-                        <img src="/projects/Florence/assets/images/courses/post.png" alt="Post Basic Nursing">
+                        <img src="<?= IMG_URL ?>courses/post.png" alt="Post Basic Nursing">
                     </div>
 
                     <div class="courses-content">
@@ -126,7 +126,7 @@
                             nursing professionals.
                         </p>
 
-                        <a href="/projects/Florence/pages/basic-bsc.php" class="readmore">
+                        <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
                             Read More <i class="fa-solid fa-long-arrow-right"></i>
                         </a>
                     </div>

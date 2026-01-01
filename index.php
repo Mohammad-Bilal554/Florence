@@ -9,7 +9,7 @@
 
         <div class="slider-active" style="background: #141b22;">
             <div class="single-slider slider-bg"
-                style="background-image: url(assets/images/hero/banner_one.jpg); background-size: cover;">
+                style="background-image: url(<?= IMG_URL ?>/hero/banner_one.jpg); background-size: cover;">
                 <div class="container">
                     <div class="row">
 
@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="single-slider slider-bg"
-                style="background-image: url(assets/images/hero/banner_three.jpg); background-size: cover;">
+                style="background-image: url(<?= IMG_URL ?>/hero/banner_three.jpg); background-size: cover;">
                 <div class="container">
                     <div class="row">
 
@@ -130,11 +130,11 @@
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft"
                         data-delay=".4s">
-                        <img src="assets/images/main_page/about_sec.png" alt="img"
+                        <img src="<?= IMG_URL ?>/main_page/about_sec.png" alt="img"
                             style="border-radius: 15px; width: 75%;">
                         <div class="about-image-two"
                             style="position: absolute; bottom: -50px; right: -20px; width: 60%; z-index: 1;">
-                            <img src="assets/images/main_page/about_one.png" alt="img"
+                            <img src="<?= IMG_URL ?>/main_page/about_one.png" alt="img"
                                 style="width: 100%; border: 10px solid #eff7ff; border-radius: 15px;">
                         </div>
                         <div class="about-text">
@@ -226,7 +226,7 @@
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="courses-item">
                         <div class="thumb">
-                            <img src="assets/images/courses/bsc.png" alt="B.Sc Nursing">
+                            <img src="<?= IMG_URL ?>/courses/bsc.png" alt="B.Sc Nursing">
                         </div>
 
                         <div class="courses-content">
@@ -256,7 +256,7 @@
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="courses-item">
                         <div class="thumb">
-                            <img src="assets/images/courses/diploma.png" alt="Diploma Nursing">
+                            <img src="<?= IMG_URL ?>/courses/diploma.png" alt="Diploma Nursing">
                         </div>
 
                         <div class="courses-content">
@@ -286,7 +286,7 @@
                 <div class="col-lg-4 col-md-6 mb-30">
                     <div class="courses-item">
                         <div class="thumb">
-                            <img src="assets/images/courses/post.png" alt="Post Basic Nursing">
+                            <img src="<?= IMG_URL ?>/courses/post.png" alt="Post Basic Nursing">
                         </div>
 
                         <div class="courses-content">
@@ -374,7 +374,7 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="step-img wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                        <img src="assets/images/main_page/about_third.jpg" alt="class image">
+                        <img src="<?= IMG_URL ?>/main_page/about_third.jpg" alt="class image">
                     </div>
 
                 </div>
@@ -388,10 +388,10 @@
     <!-- steps-area-end -->
     <!-- event-area -->
     <section class="event pt-120 pb-90 p-relative fix">
-        <div class="animations-06"><img src="assets/images/bg/an-img-sixth.png" alt="an-img-01"></div>
-        <div class="animations-07"><img src="assets/images/bg/an-img-seventh.png" alt="contact-bg-an-01"></div>
-        <div class="animations-08"><img src="assets/images/bg/an-img-eighth.png" alt="contact-bg-an-01"></div>
-        <div class="animations-09"><img src="assets/images/bg/an-img-ninth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-06"><img src="<?= IMG_URL ?>/bg/an-img-sixth.png" alt="an-img-01"></div>
+        <div class="animations-07"><img src="<?= IMG_URL ?>/bg/an-img-seventh.png" alt="contact-bg-an-01"></div>
+        <div class="animations-08"><img src="<?= IMG_URL ?>/bg/an-img-eighth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-09"><img src="<?= IMG_URL ?>/bg/an-img-ninth.png" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 p-relative">
@@ -411,7 +411,7 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="assets/images/main_page/event_one.png"
+                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_one.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
@@ -428,7 +428,7 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="assets/images/main_page/event_two.png"
+                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_two.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
@@ -446,7 +446,7 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="single-event.html"><img src="assets/images/main_page/event_three.png"
+                            <a href="single-event.html"><img src="<?= IMG_URL ?>/main_page/event_three.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
@@ -518,7 +518,7 @@
     </section>
     <!-- courses-area -->
     <!-- cta-area -->
-    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url(assets/images/bg/cta_bg_sec.png)">
+    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url(<?= IMG_URL ?>/bg/cta_bg_sec.png)">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
@@ -547,8 +547,8 @@
 
     <!-- frequently-area -->
     <section class="faq-area pt-120 pb-120 p-relative fix">
-        <div class="animations-10"><img src="assets/images/bg/an-img-fourth.png" alt="an-img-01"></div>
-        <div class="animations-08"><img src="assets/images/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-10"><img src="<?= IMG_URL ?>/bg/an-img-fourth.png" alt="an-img-01"></div>
+        <div class="animations-08"><img src="<?= IMG_URL ?>/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row justify-content-center  align-items-center">
 
@@ -701,7 +701,7 @@
     </section>
     <!-- frequently-area-end -->
     <!-- video-area -->
-    <section class="cta-area cta-bg pt-100 pb-100" style="background-image:url(assets/images/bg/bg_first.png)">
+    <section class="cta-area cta-bg pt-100 pb-100" style="background-image:url(<?= IMG_URL ?>/bg/bg_first.png)">
         <div class="container">
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -724,7 +724,7 @@
                     <div class="col-lg-4">
 
                         <div class="s-video-content">
-                            <a href="" class="popup-video mb-50"><img src="assets/images/bg/play-button.png"
+                            <a href="" class="popup-video mb-50"><img src="<?= IMG_URL ?>/bg/play-button.png"
                                     alt="circle_right"></a>
 
                         </div>
@@ -739,8 +739,8 @@
 
     <!-- testimonial-area -->
     <section class="testimonial-area pt-120 pb-115 p-relative fix">
-        <div class="animations-01"><img src="assets/images/bg/an-img-third.png" alt="an-img-01"></div>
-        <div class="animations-02"><img src="assets/images/bg/an-img-fourth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-01"><img src="<?= IMG_URL ?>/bg/an-img-third.png" alt="an-img-01"></div>
+        <div class="animations-02"><img src="<?= IMG_URL ?>/bg/an-img-fourth.png" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -765,7 +765,7 @@
                                 faculty support and practical exposure helped me grow both professionally and
                                 personally.</p>
                             <div class="testi-author">
-                                <img src="assets/images/testimonials/female.png" alt="img">
+                                <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                             </div>
                             <div class="ta-info">
                                 <h6>Anjali Verma</h6>
@@ -779,7 +779,7 @@
                             <p>The learning environment at Florence is disciplined, supportive, and focused on
                                 real-world nursing practice. I feel proud to be a Florian.</p>
                             <div class="testi-author">
-                                <img src="assets/images/testimonials/female.png" alt="img">
+                                <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                             </div>
                             <div class="ta-info">
                                 <h6>Riya Singh</h6>
@@ -793,7 +793,7 @@
                             <p>The college emphasizes evidence-based practice and critical thinking, which prepared
                                 me well for hospital duties and patient care.</p>
                             <div class="testi-author">
-                                <img src="assets/images/testimonials/female.png" alt="img">
+                                <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                             </div>
                             <div class="ta-info">
                                 <h6>Pooja Sharma</h6>
@@ -807,7 +807,7 @@
                             <p>Florence College of Nursing not only teaches nursing skills but also values
                                 compassion, ethics, and responsibility in healthcare.</p>
                             <div class="testi-author">
-                                <img src="assets/images/testimonials/female.png" alt="img">
+                                <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                             </div>
                             <div class="ta-info">
                                 <h6>Neha Gupta</h6>
@@ -821,7 +821,7 @@
                             <p>The clinical training and guidance from experienced teachers helped me build
                                 confidence and professionalism in my nursing career.</p>
                             <div class="testi-author">
-                                <img src="assets/images/testimonials/female.png" alt="img">
+                                <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                             </div>
                             <div class="ta-info">
                                 <h6>Suman Yadav</h6>
@@ -838,15 +838,15 @@
 
 
     <!-- search-area -->
-    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url(assets/images/bg/search-bg.png);  background-position: center center; background-repeat: no-repeat; background-size: cover;
+    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url(<?= IMG_URL ?>/bg/search-bg.png);  background-position: center center; background-repeat: no-repeat; background-size: cover;
 background:
 linear-gradient(#253c8094, #253c8094),
-url(assets/images/bg/search_bg.jpg);
+url(<?= IMG_URL ?>/bg/search_bg.jpg);
 background-size: cover;
 background-position: center;
 ">
-        <div class="animations-10"><img src="assets/images/bg/an-img-fourth.png" alt="an-img-01"></div>
-        <div class="animations-08"><img src="assets/images/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-10"><img src="<?= IMG_URL ?>/bg/an-img-fourth.png" alt="an-img-01"></div>
+        <div class="animations-08"><img src="<?= IMG_URL ?>/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
         <div class="container"></div>
         <div class="row justify-content-center  align-items-center">
             <div class="col-lg-8">
@@ -937,7 +937,7 @@ background-position: center;
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft"
                         data-delay=".4s">
-                        <img src="assets/images/main_page/about_first.jpg" alt="img">
+                        <img src="<?= IMG_URL ?>/main_page/about_first.jpg" alt="img">
                     </div>
                 </div>
 
@@ -969,22 +969,22 @@ background-position: center;
         <div class="container">
             <div class="brand-active">
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/male.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
                 </div>
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/female.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                 </div>
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/male.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
                 </div>
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/female.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                 </div>
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/male.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
                 </div>
                 <div class="single-brand">
-                    <img src="assets/images/testimonials/female.png" alt="img">
+                    <img src="<?= IMG_URL ?>/testimonials/female.png" alt="img">
                 </div>
             </div>
         </div>
@@ -1012,7 +1012,7 @@ background-position: center;
                     <div class="single-post2 hover-zoomin mb-30 wow fadeInUp animated" data-animation="fadeInUp"
                         data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/images/couress-img-4.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-4.jpg" alt="img"></a>
                             <div class="date-home">
                                 <i class="fal fa-calendar-alt"></i> 28th November 2025
                             </div>
@@ -1039,7 +1039,7 @@ background-position: center;
                     <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp"
                         data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/images/couress-img-5.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-5.jpg" alt="img"></a>
                             <div class="date-home">
                                 <i class="fal fa-calendar-alt"></i> 07th December 2025
                             </div>
@@ -1068,7 +1068,7 @@ background-position: center;
                     <div class="single-post2 mb-30 hover-zoomin wow fadeInUp animated" data-animation="fadeInUp"
                         data-delay=".4s">
                         <div class="blog-thumb2">
-                            <a href="blog-details.html"><img src="assets/images/couress-img-1.jpg" alt="img"></a>
+                            <a href="blog-details.html"><img src="<?= IMG_URL ?>/couress-img-1.jpg" alt="img"></a>
                             <div class="date-home">
                                 <i class="fa-solid fa-calendar-alt"></i> 20th December 2025
                             </div>

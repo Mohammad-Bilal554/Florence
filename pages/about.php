@@ -5,7 +5,7 @@
 
     <!-- breadcrumb-area -->
     <section class="breadcrumb-area d-flex  p-relative align-items-center"
-        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(/projects/Florence/assets/images/bg/bg_first.png);">
+        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(<?= IMG_URL ?>bg/bg_first.png);">
 
 
         <div class="container">
@@ -22,7 +22,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/projects/Florence/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">About Us</li>
                         </ol>
                     </nav>
@@ -34,14 +34,14 @@
     <!-- breadcrumb-area-end -->
     <!-- about-area -->
     <section class="about-area about-p pt-120 pb-120 p-relative fix">
-        <div class="animations-02"><img src="/Projects/Florence/assets/images/an-img-02.png"
+        <div class="animations-02"><img src="<?= IMG_URL ?>an-img-02.png"
                 alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="s-about-img p-relative  wow fadeInLeft  animated" data-animation="fadeInLeft"
                         data-delay=".4s" style="visibility: visible; animation-name: fadeInLeft;">
-                        <img src="/projects/Florence/assets/images/about/about_first.jpg" alt="img" style="border-radius: 15px;">
+                        <img src="<?= IMG_URL ?>about/about_first.jpg" alt="img" style="border-radius: 15px;">
                         <div class="about-text second-about three-about">
                             <span>25 <sub>+</sub></span>
                             <p>Years of Experience</p>
@@ -205,7 +205,7 @@
 
     <!-- steps-area -->
     <section class="steps-area2 p-relative fix" style="background-color: #125875;">
-        <div class="animations-02"><img src="/Projects/Florence/assets/images/an-img-10.png"
+        <div class="animations-02"><img src="<?= IMG_URL ?>an-img-10.png"
                 alt="an-img-01"></div>
         <div class="container">
 
@@ -225,7 +225,7 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="step-img2 wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s"
                         style="visibility: visible; animation-name: fadeInLeft;">
-                        <img src="/Projects/Florence/assets/images/about/about_second.jpg"
+                        <img src="<?= IMG_URL ?>about/about_second.jpg"
                             alt="class image">
                     </div>
 
@@ -241,13 +241,13 @@
     <!-- steps-area -->
     <section class="steps-area2 p-relative fix" style="background-color: #253c80;">
         <div class="container">
-            <div class="animations-08"><img src="/Projects/Florence/assets/images/an-img-10.png"
+            <div class="animations-08"><img src="<?= IMG_URL ?>an-img-10.png"
                     alt="contact-bg-an-01"></div>
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-12">
                     <div class="step-img3 wow fadeInLeft  animated" data-animation="fadeInLeft" data-delay=".4s"
                         style="visibility: visible; animation-name: fadeInLeft;">
-                        <img src="/Projects/Florence/assets/images/main_page/about_first.jpg"
+                        <img src="<?= IMG_URL ?>main_page/about_first.jpg"
                             alt="class image">
                     </div>
 
@@ -498,8 +498,8 @@
 
         <!-- frequently-area -->
         <section class="faq-area pt-120 pb-120 p-relative fix">
-            <div class="animations-10"><img src="/Projects/Florence/assets/images/bg/an-img-fourth.png" alt="an-img-01"></div>
-            <div class="animations-08"><img src="/Projects/Florence/assets/images/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
+            <div class="animations-10"><img src="<?= IMG_URL ?>bg/an-img-fourth.png" alt="an-img-01"></div>
+            <div class="animations-08"><img src="<?= IMG_URL ?>bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
             <div class="container">
                 <div class="row justify-content-center  align-items-center">
 

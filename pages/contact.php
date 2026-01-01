@@ -4,7 +4,7 @@
             
            <!-- breadcrumb-area -->
     <section class="breadcrumb-area d-flex  p-relative align-items-center"
-        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(/projects/Florence/assets/images/bg/bg_first.png);">
+        style="background-image: linear-gradient(rgba(95,157,161,0.55), rgba(37,60,128,0.55)), url(<?= IMG_URL ?>/bg/bg_first.png);">
 
 
         <div class="container">
@@ -21,7 +21,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="/projects/Florence/index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Contact us</li>
                         </ol>
                     </nav>
