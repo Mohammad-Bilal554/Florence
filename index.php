@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="slider-btn mt-20">
-                            <a href="about.html" class="btn ss-btn smoth-scroll">Read More <i
+                            <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Read More <i
                                     class="fa-solid fa-long-arrow-right"></i></a>
                         </div>
                     </div>
