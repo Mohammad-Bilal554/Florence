@@ -220,9 +220,12 @@
                                             <span class="icon fa-solid fa-globe"></span> <strong>Language: </strong> <span>English</span>
                                         </li>
                                         <li>
-                                            <div class="slider-btn">                                          
-                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Enroll <i class="fal fa-long-arrow-right"></i></a>				
-                                            </div>
+                                            <div class="slider-btn">
+    <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">
+        Enroll <i class="fa-solid fa-arrow-right-long"></i>
+    </a>
+</div>
+
                                         </li>
                                        
                                     </ul>

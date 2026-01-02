@@ -15,6 +15,8 @@
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
         integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -60,7 +62,7 @@
                     <div class="col-lg-4 col-md-4 d-none d-lg-block ">
                         <div class="header-social">
                             <span>
-                                Follow us:-
+                                Follow us:
                                 <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#" title="LinkedIn"><i class="fab fa-instagram"></i></a>
                                 <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>

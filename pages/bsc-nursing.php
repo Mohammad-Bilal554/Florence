@@ -221,7 +221,7 @@
                                         </li>
                                         <li>
                                             <div class="slider-btn">                                          
-                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Enroll <i class="fal fa-long-arrow-right"></i></a>				
+                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Enroll <i class="fa-solid fa-arrow-right-long"></i></a>				
                                             </div>
                                         </li>
                                        

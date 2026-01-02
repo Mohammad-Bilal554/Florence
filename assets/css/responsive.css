@@ -2510,6 +2510,7 @@
         display: block;
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 10px;
     }
 
     .about-content .nav-tabs .nav-link {

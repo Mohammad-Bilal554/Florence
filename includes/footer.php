@@ -34,8 +34,8 @@
                                     <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
                                     <li><a href="<?= BASE_URL ?>pages/about.php"> About</a></li>
                                     <li><a href="<?= BASE_URL ?>pages/courses.php">Courses</a></li>
-                                    <li><a href="contact.html"> Contact Us</a></li>
-                                    <li><a href="blog.html">Blog </a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/blog.php">Blog </a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/contact.php"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
