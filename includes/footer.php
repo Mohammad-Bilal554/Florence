@@ -15,7 +15,6 @@
                                     professionals.
                                     We blend quality education with practical training to prepare students for
                                     real-world healthcare.</p>
-
                             </div>
                             <div class="footer-social mt-10">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
