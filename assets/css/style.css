@@ -2879,6 +2879,7 @@ background-color: rgba(18, 88, 117, 0.85);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 10px;
 }
 
 
