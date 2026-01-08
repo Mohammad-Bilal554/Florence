@@ -209,111 +209,137 @@
         </div>
     </section>
     <!-- about-area-end -->
-          <!-- courses-area -->
-      <section class="courses pt-120 pb-120">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="section-title text-center mb-50">
-                    <h5><i class="fa-solid fa-graduation-cap"></i> Our Courses</h5>
-                    <h2>Programs Offered</h2>
+         <!-- cta-area -->
+    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url(<?= IMG_URL ?>/bg/cta_bg_sec.png)">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title cta-title wow fadeInLeft animated" data-animation="fadeInDown animated"
+                        data-delay=".2s">
+                        <h2>Scholarship Programs</h2>
+                        <p>At Florence School of Nursing, we prepare you for a rewarding healthcare career through a
+                            supportive, hands-on learning environment that builds clinical skills and professional
+                            confidence.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 text-right">
+                    <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated"
+                        data-delay=".2s">
+                        <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Financial Aid <i
+                                class="fa-solid fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- cta-area-end -->
+    <!-- courses-area -->
+    <section class="courses pt-120 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center mb-50">
+                        <h5><i class="fa-solid fa-graduation-cap"></i> Our Courses</h5>
+                        <h2>Programs Offered</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row courses-row">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="courses-item">
+                        <div class="thumb">
+                            <img src="<?= IMG_URL ?>courses/bsc.png" alt="B.Sc Nursing">
+                        </div>
+
+                        <div class="courses-content">
+                            <span class="cat">
+                                <i class="fal fa-graduation-cap"></i> Nursing
+                            </span>
+
+                            <h3>B.Sc Nursing</h3>
+
+                            <p>
+                                A comprehensive undergraduate program focused on professional nursing skills and
+                                clinical excellence.
+                            </p>
+
+                            <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
+                                Read More <i class="fa-solid fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="courses-item">
+                        <div class="thumb">
+                            <img src="<?= IMG_URL ?>courses/diploma.png" alt="Diploma Nursing">
+                        </div>
+
+                        <div class="courses-content">
+                            <span class="cat">
+                                <i class="fal fa-graduation-cap"></i> Nursing
+                            </span>
+
+                            <h3>Diploma in General Nursing</h3>
+
+                            <p>
+                                A practice-oriented program preparing students for essential patient care and
+                                healthcare services.
+                            </p>
+
+                            <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
+                                Read More <i class="fa-solid fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 mb-30">
+                    <div class="courses-item">
+                        <div class="thumb">
+                            <img src="<?= IMG_URL ?>courses/post.png" alt="Post Basic Nursing">
+                        </div>
+
+                        <div class="courses-content">
+                            <span class="cat">
+                                <i class="fal fa-graduation-cap"></i> Nursing
+                            </span>
+
+                            <h3>Post Basic B.Sc. Nursing</h3>
+
+                            <p>
+                                An advanced program designed to enhance clinical knowledge and career growth for
+                                nursing professionals.
+                            </p>
+
+                            <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
+                                Read More <i class="fa-solid fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="row courses-row">
-            <!-- Card 1 -->
-            <div class="col-lg-4 col-md-6 mb-30">
-                <div class="courses-item">
-                    <div class="thumb">
-                        <img src="<?= IMG_URL ?>courses/bsc.png" alt="B.Sc Nursing">
-                    </div>
-
-                    <div class="courses-content">
-                        <span class="cat">
-                            <i class="fal fa-graduation-cap"></i> Nursing
-                        </span>
-
-                        <h3>B.Sc Nursing</h3>
-
-                        <p>
-                            A comprehensive undergraduate program focused on professional nursing skills and
-                            clinical excellence.
-                        </p>
-
-                        <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
-                            Read More <i class="fa-solid fa-long-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fa-solid fa-user-graduate"></i>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="col-lg-4 col-md-6 mb-30">
-                <div class="courses-item">
-                    <div class="thumb">
-                        <img src="<?= IMG_URL ?>courses/diploma.png" alt="Diploma Nursing">
-                    </div>
-
-                    <div class="courses-content">
-                        <span class="cat">
-                            <i class="fal fa-graduation-cap"></i> Nursing
-                        </span>
-
-                        <h3>Diploma in General Nursing</h3>
-
-                        <p>
-                            A practice-oriented program preparing students for essential patient care and
-                            healthcare services.
-                        </p>
-
-                        <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
-                            Read More <i class="fa-solid fa-long-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fa-solid fa-user-graduate"></i>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="col-lg-4 col-md-6 mb-30">
-                <div class="courses-item">
-                    <div class="thumb">
-                        <img src="<?= IMG_URL ?>courses/post.png" alt="Post Basic Nursing">
-                    </div>
-
-                    <div class="courses-content">
-                        <span class="cat">
-                            <i class="fal fa-graduation-cap"></i> Nursing
-                        </span>
-
-                        <h3>Post Basic B.Sc. Nursing</h3>
-
-                        <p>
-                            An advanced program designed to enhance clinical knowledge and career growth for
-                            nursing professionals.
-                        </p>
-
-                        <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
-                            Read More <i class="fa-solid fa-long-arrow-right"></i>
-                        </a>
-                    </div>
-
-                    <div class="icon">
-                        <i class="fa-solid fa-user-graduate"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
     <!-- courses-area -->
     <!-- steps-area -->
     <section class="steps-area p-relative pt-60 pb-60" style="background-color: #253c80;">
@@ -388,38 +414,33 @@
 
 
     <!-- event-area -->
-       <!-- event-area -->
-    <section class="event pt-120 pb-90 p-relative fix">
+    <!-- <section class="event pt-120 pb-90 p-relative fix">
         <div class="animations-06"><img src="<?= IMG_URL ?>bg/an-img-sixth.png" alt="an-img-01">
         </div>
-        <div class="animations-07"><img src="<?= IMG_URL ?>bg/an-img-seventh.png"
-                alt="contact-bg-an-01"></div>
-        <div class="animations-08"><img src="<?= IMG_URL ?>bg/an-img-eighth.png"
-                alt="contact-bg-an-01"></div>
-        <div class="animations-09"><img src="<?= IMG_URL ?>bg/an-img-ninth.png"
-                alt="contact-bg-an-01"></div>
+        <div class="animations-07"><img src="<?= IMG_URL ?>bg/an-img-seventh.png" alt="contact-bg-an-01"></div>
+        <div class="animations-08"><img src="<?= IMG_URL ?>bg/an-img-eighth.png" alt="contact-bg-an-01"></div>
+        <div class="animations-09"><img src="<?= IMG_URL ?>bg/an-img-ninth.png" alt="contact-bg-an-01"></div>
         <div class="container">
             <div class="row">
-                    <div class="col-lg-12 p-relative">
-                        <div class="section-title center-align mb-50 text-center wow fadeInDown animated"
-                            data-animation="fadeInDown" data-delay=".4s">
-                            <h5><i class="fa-solid fa-graduation-cap"></i> Our Events</h5>
-                            <h2>
-                                Upcoming Events
-                            </h2>
+                <div class="col-lg-12 p-relative">
+                    <div class="section-title center-align mb-50 text-center wow fadeInDown animated"
+                        data-animation="fadeInDown" data-delay=".4s">
+                        <h5><i class="fa-solid fa-graduation-cap"></i> Our Events</h5>
+                        <h2>
+                            Upcoming Events
+                        </h2>
 
-                        </div>
                     </div>
-
                 </div>
+
+            </div>
             <div class="row" id="eventContainer">
 
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
                             <a href="<?= BASE_URL ?>pages/event-detail.php"><img
-                                    src="<?= IMG_URL ?>main_page/event_one.png"
-                                    alt="contact-bg-an-01"></a>
+                                    src="<?= IMG_URL ?>main_page/event_one.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>28</strong> Dec, 2025</div>
@@ -437,8 +458,7 @@
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
                             <a href="<?= BASE_URL ?>pages/event-detail.php"><img
-                                    src="<?= IMG_URL ?>main_page/event_two.png"
-                                    alt="contact-bg-an-01"></a>
+                                    src="<?= IMG_URL ?>main_page/event_two.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>2</strong> Jan, 2026</div>
@@ -457,8 +477,7 @@
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
                             <a href="<?= BASE_URL ?>pages/event-detail.php"><img
-                                    src="<?= IMG_URL ?>main_page/event_three.png"
-                                    alt="contact-bg-an-01"></a>
+                                    src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
@@ -478,8 +497,7 @@
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
                             <a href="<?= BASE_URL ?>pages/event-detail.php"><img
-                                    src="<?= IMG_URL ?>main_page/event_three.png"
-                                    alt="contact-bg-an-01"></a>
+                                    src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
@@ -500,8 +518,7 @@
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
                             <a href="<?= BASE_URL ?>pages/event-detail.php"><img
-                                    src="<?= IMG_URL ?>main_page/event_three.png"
-                                    alt="contact-bg-an-01"></a>
+                                    src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
@@ -527,34 +544,11 @@
 
 
         </div>
-    </section>
-    <!-- courses-area -->
-    <!-- cta-area -->
-    <section class="cta-area cta-bg pt-50 pb-50" style="background-image:url(<?= IMG_URL ?>/bg/cta_bg_sec.png)">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title cta-title wow fadeInLeft animated" data-animation="fadeInDown animated"
-                        data-delay=".2s">
-                        <h2>Scholarship Programs</h2>
-                        <p>At Florence School of Nursing, we prepare you for a rewarding healthcare career through a
-                            supportive, hands-on learning environment that builds clinical skills and professional
-                            confidence.</p>
-                    </div>
+    </section> -->
+    <!-- Event-area-end -->
 
-                </div>
-                <div class="col-lg-4 text-right">
-                    <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated"
-                        data-delay=".2s">
-                        <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Financial Aid <i
-                                class="fa-solid fa-long-arrow-right"></i></a>
-                    </div>
-                </div>
 
-            </div>
-        </div>
-    </section>
-    <!-- cta-area-end -->
+
 
 
     <!-- frequently-area -->
@@ -979,6 +973,7 @@ background-position: center;
     <!-- brand-area -->
     <div class="brand-area pt-60 pb-60" style="background-color:#5f9ea1">
         <div class="container">
+           <h1 class="text-center text-white mb-5">Training & Placements</h1>
             <div class="brand-active">
                 <div class="single-brand">
                     <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
@@ -1003,67 +998,76 @@ background-position: center;
     </div>
     <!-- brand-area-end -->
     <!-- blog-area -->
-   
-<section class="blog-section">
-    <div class="blog-header">
-        <h2>Latest News & Articles</h2>
-        <p>Stay updated with the latest trends in nursing and healthcare education.</p>
-    </div>
 
-    <div class="blog-grid" id="blogGrid">
-        <article class="blog-card">
-            <div class="blog-img">
-                <span class="category-badge">Education</span>
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Nursing Blog">
-            </div>
-            <div class="blog-content">
-                <span class="blog-date">October 12, 2025</span>
-                <h3>The Future of Nursing: Technology in Healthcare</h3>
-                <p>Explore how AI and robotics are reshaping the way nurses provide patient care in modern hospitals.</p>
-                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </article>
+    <!-- <section class="blog-section">
+        <div class="blog-header">
+            <h2>Latest News & Articles</h2>
+            <p>Stay updated with the latest trends in nursing and healthcare education.</p>
+        </div>
 
-        <article class="blog-card">
-            <div class="blog-img">
-                <span class="category-badge">Career</span>
-                <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80" alt="Career Tips">
-            </div>
-            <div class="blog-content">
-                <span class="blog-date">October 05, 2025</span>
-                <h3>Top 5 Skills Every Nursing Graduate Needs</h3>
-                <p>Beyond medical knowledge, soft skills like communication and empathy are vital for a successful career.</p>
-                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </article>
+        <div class="blog-grid" id="blogGrid">
+            <article class="blog-card">
+                <div class="blog-img">
+                    <span class="category-badge">Education</span>
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80"
+                        alt="Nursing Blog">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">October 12, 2025</span>
+                    <h3>The Future of Nursing: Technology in Healthcare</h3>
+                    <p>Explore how AI and robotics are reshaping the way nurses provide patient care in modern
+                        hospitals.</p>
+                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
 
-        <article class="blog-card">
-            <div class="blog-img">
-                <span class="category-badge">Health Tips</span>
-                <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80" alt="Health Tips">
-            </div>
-            <div class="blog-content">
-                <span class="blog-date">September 28, 2025</span>
-                <h3>Community Health: A Nurse’s Perspective</h3>
-                <p>A look into how Florence College students are making a difference in rural healthcare programs.</p>
-                <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </article>
+            <article class="blog-card">
+                <div class="blog-img">
+                    <span class="category-badge">Career</span>
+                    <img src="https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&w=600&q=80"
+                        alt="Career Tips">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">October 05, 2025</span>
+                    <h3>Top 5 Skills Every Nursing Graduate Needs</h3>
+                    <p>Beyond medical knowledge, soft skills like communication and empathy are vital for a successful
+                        career.</p>
+                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
 
-       
+            <article class="blog-card">
+                <div class="blog-img">
+                    <span class="category-badge">Health Tips</span>
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80"
+                        alt="Health Tips">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">September 28, 2025</span>
+                    <h3>Community Health: A Nurse’s Perspective</h3>
+                    <p>A look into how Florence College students are making a difference in rural healthcare programs.
+                    </p>
+                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
 
-     
-        
-    </div>
 
-    <div class="pagination">
-        <a href="#" class="page-btn disabled"><i class="fa-solid fa-chevron-left"></i></a>
-        <a href="#" class="page-btn active">1</a>
-        <a href="#" class="page-btn">2</a>
-        <a href="#" class="page-btn">3</a>
-        <a href="#" class="page-btn"><i class="fa-solid fa-chevron-right"></i></a>
-    </div>
-</section>
+
+
+
+        </div>
+
+        <div class="pagination">
+            <a href="#" class="page-btn disabled"><i class="fa-solid fa-chevron-left"></i></a>
+            <a href="#" class="page-btn active">1</a>
+            <a href="#" class="page-btn">2</a>
+            <a href="#" class="page-btn">3</a>
+            <a href="#" class="page-btn"><i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </section> -->
     <!-- blog-area-end -->
 
     <!-- newslater-area -->
