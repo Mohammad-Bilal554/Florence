@@ -858,7 +858,7 @@ background-position: center;
             <div class="col-lg-8">
                 <div class="contact-bg">
                     <div class="section-title wow fadeInDown animated" data-animation="fadeInDown" data-delay=".4s">
-                        <h2>
+                        <h2 style="text-align: center;">
                             Search For Courses
                         </h2>
                         <p>Our community is being called to reimagine the future. As the only university where a
