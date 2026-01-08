@@ -20,7 +20,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
                         </ol>
                     </nav>

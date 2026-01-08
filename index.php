@@ -199,7 +199,7 @@
                             </div>
                         </div>
                         <div class="slider-btn mt-20">
-                            <a href="<?= BASE_URL ?>pages/about.php" class="btn ss-btn smoth-scroll">Read More <i
+                            <a href="<?= BASE_URL ?>pages/about" class="btn ss-btn smoth-scroll">Read More <i
                                     class="fa-solid fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -226,7 +226,7 @@
                 <div class="col-lg-4 text-right">
                     <div class="cta-btn s-cta-btn wow fadeInRight animated mt-30" data-animation="fadeInDown animated"
                         data-delay=".2s">
-                        <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Financial Aid <i
+                        <a href="<?= BASE_URL ?>pages/contact" class="btn ss-btn smoth-scroll">Financial Aid <i
                                 class="fa-solid fa-long-arrow-right"></i></a>
                     </div>
                 </div>
@@ -267,7 +267,7 @@
                                 clinical excellence.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/bsc-nursing" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>
@@ -297,7 +297,7 @@
                                 healthcare services.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/diploma" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>
@@ -327,7 +327,7 @@
                                 nursing professionals.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/basic-bsc" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>
@@ -439,12 +439,12 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_one.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>28</strong> Dec, 2025</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> World Health Day Awareness
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> World Health Day Awareness
                                     Program</a></h3>
                             <p>An awareness event promoting healthy living, preventive care, and public health
                                 education.</p>
@@ -457,12 +457,12 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_two.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>2</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php">Clinical Skills & Simulation
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail">Clinical Skills & Simulation
                                     Workshop</a>
                             </h3>
                             <p>A practical training session to strengthen essential nursing and patient-care skills.
@@ -476,12 +476,12 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
@@ -496,12 +496,12 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
@@ -517,12 +517,12 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png" alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
@@ -665,7 +665,7 @@
 
                         </div>
 
-                        <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated"
+                        <form action="mail" method="post" class="contact-form mt-30 wow fadeInUp animated"
                             data-animation="fadeInUp" data-delay=".4s">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -844,13 +844,16 @@
 
 
     <!-- search-area -->
-    <section class="search-area pt-120 pb-120 p-relative fix" style="background-image:url(<?= IMG_URL ?>/bg/search-bg.png);  background-position: center center; background-repeat: no-repeat; background-size: cover;
-background:
-linear-gradient(#253c8094, #253c8094),
-url(<?= IMG_URL ?>/bg/search_bg.jpg);
-background-size: cover;
-background-position: center;
-">
+<section
+    class="search-area pt-120 pb-120 p-relative fix"
+    style="
+        background:
+        linear-gradient(#253c8094, #253c8094),
+        url('<?= IMG_URL ?>/bg/search_bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    ">
         <div class="animations-10"><img src="<?= IMG_URL ?>/bg/an-img-fourth.png" alt="an-img-01"></div>
         <div class="animations-08"><img src="<?= IMG_URL ?>/bg/an-img-fifth.png" alt="contact-bg-an-01"></div>
         <div class="container"></div>
@@ -866,7 +869,7 @@ background-position: center;
                             more relevant and transformational.</p>
                     </div>
 
-                    <form action="mail.php" method="post" class="contact-form mt-30 wow fadeInUp animated"
+                    <form action="mail" method="post" class="contact-form mt-30 wow fadeInUp animated"
                         data-animation="fadeInUp" data-delay=".4s">
                         <div class="row">
                             <div class="col-lg-6">
@@ -960,7 +963,7 @@ background-position: center;
                             committed to helping you begin a meaningful journey toward a trusted and fulfilling
                             career in nursing.</p>
                         <div class="slider-btn mt-20">
-                            <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Contact Us <i
+                            <a href="<?= BASE_URL ?>pages/contact" class="btn ss-btn smoth-scroll">Contact Us <i
                                     class="fa-solid fa-long-arrow-right"></i></a>
                         </div>
                     </div>
@@ -1017,7 +1020,7 @@ background-position: center;
                     <h3>The Future of Nursing: Technology in Healthcare</h3>
                     <p>Explore how AI and robotics are reshaping the way nurses provide patient care in modern
                         hospitals.</p>
-                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                    <a href="<?= BASE_URL ?>pages/blog-detail" class="read-more">Read Full Article <i
                             class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </article>
@@ -1033,7 +1036,7 @@ background-position: center;
                     <h3>Top 5 Skills Every Nursing Graduate Needs</h3>
                     <p>Beyond medical knowledge, soft skills like communication and empathy are vital for a successful
                         career.</p>
-                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                    <a href="<?= BASE_URL ?>pages/blog-detail" class="read-more">Read Full Article <i
                             class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </article>
@@ -1049,7 +1052,7 @@ background-position: center;
                     <h3>Community Health: A Nurse’s Perspective</h3>
                     <p>A look into how Florence College students are making a difference in rural healthcare programs.
                     </p>
-                    <a href="<?= BASE_URL ?>pages/blog-detail.php" class="read-more">Read Full Article <i
+                    <a href="<?= BASE_URL ?>pages/blog-detail" class="read-more">Read Full Article <i
                             class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </article>

@@ -63,10 +63,10 @@
                         <div class="header-social">
                             <span>
                                 Follow us:
-                                <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#" title="LinkedIn"><i class="fab fa-instagram"></i></a>
-                                <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                                <a href="#" title="Twitter"><i class="fab fa-youtube"></i></a>
+                                <a href="<?= BASE_URL ?>" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="<?= BASE_URL ?>" title="LinkedIn"><i class="fab fa-instagram"></i></a>
+                                <a href="<?= BASE_URL ?>" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="<?= BASE_URL ?>" title="Twitter"><i class="fab fa-youtube"></i></a>
                             </span>
                             <!--  /social media icon redux -->
                         </div>
@@ -109,7 +109,7 @@
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-lg-3">
                             <div class="logo" style="display:flex; align-items:center; gap:12px; min-width:0;">
-                                <a href="index.html" style="display:flex; align-items:center; flex-shrink:0;">
+                                <a href="<?= BASE_URL ?>index" style="display:flex; align-items:center; flex-shrink:0;">
                                     <img src="<?= IMG_URL ?>/icon/main_logo.png" alt="logo"
                                         style="height:60px; width:auto; display:block;">
                                 </a>
@@ -125,13 +125,13 @@
 
                                 <nav id="mobile-menu">
                                     <ul>
-                                        <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
-                                        <li><a href="<?= BASE_URL ?>pages/about.php">About Us</a></li>
+                                        <li><a href="<?= BASE_URL ?>index">Home</a></li>
+                                        <li><a href="<?= BASE_URL ?>pages/about">About Us</a></li>
 
                                         <li class="has-sub">
-                                            <a href="<?= BASE_URL ?>pages/courses.php">Courses</a>
+                                            <a href="<?= BASE_URL ?>pages/courses">Courses</a>
                                             <!-- <ul>
-                                                <li><a href="<?= BASE_URL ?>pages/courses.php">Courses</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/courses">Courses</a></li>
                                                 <li> <a href="courses-2.html">Courses 02</a></li>
                                                 <li> <a href="single-courses.html">Course Details</a></li>
                                                 <li> <a href="single-courses-2.html">Course Details 02</a></li>
@@ -139,9 +139,9 @@
                                         </li>
                                         <li class="has-sub"><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="<?= BASE_URL ?>pages/event.php">Events</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/event">Events</a></li>
                                                 <!-- <li><a href="single-event.html">Event Details</a></li> -->
-                                                <li><a href="<?= BASE_URL ?>pages/gallery.php">Gallery</a></li>
+                                                <li><a href="<?= BASE_URL ?>pages/gallery">Gallery</a></li>
                                                 <!-- <li><a href="pricing.html">Pricing</a></li> -->
                                                 <!-- <li><a href="faq.html">Faq</a></li> -->
                                                 <!-- <li><a href="team.html">Teacher</a></li> -->
@@ -150,7 +150,7 @@
                                             </ul>
                                         </li>
                                         <li class="has-sub">
-                                            <a href="<?= BASE_URL ?>pages/blog.php">Blog</a>
+                                            <a href="<?= BASE_URL ?>pages/blog">Blog</a>
                                             <!-- <ul>
                                                 <li><a href="blog.html">Blog</a></li>
                                                 <li><a href="blog-details.html">Blog Details</a></li>
@@ -158,7 +158,7 @@
                                         </li>
 
 
-                                        <li><a href="<?= BASE_URL ?>pages/contact.php">Contact</a></li>
+                                        <li><a href="<?= BASE_URL ?>pages/contact">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>

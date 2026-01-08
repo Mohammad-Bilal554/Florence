@@ -22,7 +22,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Courses</li>
                         </ol>
                     </nav>
@@ -66,7 +66,7 @@
                                 clinical excellence.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/bsc-nursing.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/bsc-nursing" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>
@@ -96,7 +96,7 @@
                                 healthcare services.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/diploma.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/diploma" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>
@@ -126,7 +126,7 @@
                                 nursing professionals.
                             </p>
 
-                            <a href="<?= BASE_URL ?>pages/basic-bsc.php" class="readmore">
+                            <a href="<?= BASE_URL ?>pages/basic-bsc" class="readmore">
                                 Read More <i class="fa-solid fa-long-arrow-right"></i>
                             </a>
                         </div>

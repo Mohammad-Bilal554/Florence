@@ -17,9 +17,9 @@
                                     real-world healthcare.</p>
                             </div>
                             <div class="footer-social mt-10">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="<?= BASE_URL ?>"><i class="fab fa-facebook-f"></i></a>
+                                <a href="<?= BASE_URL ?>"><i class="fab fa-instagram"></i></a>
+                                <a href="<?= BASE_URL ?>"><i class="fab fa-twitter"></i></a>
                             </div>
                         </div>
                     </div>
@@ -30,11 +30,11 @@
                             </div>
                             <div class="footer-link">
                                 <ul>
-                                    <li><a href="<?= BASE_URL ?>index.php">Home</a></li>
-                                    <li><a href="<?= BASE_URL ?>pages/about.php"> About</a></li>
-                                    <li><a href="<?= BASE_URL ?>pages/courses.php">Courses</a></li>
-                                    <li><a href="<?= BASE_URL ?>pages/blog.php">Blog </a></li>
-                                    <li><a href="<?= BASE_URL ?>pages/contact.php"> Contact Us</a></li>
+                                    <li><a href="<?= BASE_URL ?>index">Home</a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/about"> About</a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/courses">Courses</a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/blog">Blog </a></li>
+                                    <li><a href="<?= BASE_URL ?>pages/contact"> Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -108,7 +108,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="copy-text">
-                            <a href="index.html"><img src="<?= IMG_URL ?>/icon/main_logo.png" alt="img"
+                            <a href="<?= BASE_URL ?>index"><img src="<?= IMG_URL ?>/icon/main_logo.png" alt="img"
                                     style="height: 60px; width: auto;"></a>
                         </div>
                     </div>

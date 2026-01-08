@@ -22,7 +22,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Events</li>
                         </ol>
                     </nav>
@@ -62,13 +62,13 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_one.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>28</strong> Dec, 2025</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> World Health Day Awareness
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> World Health Day Awareness
                                     Program</a></h3>
                             <p>An awareness event promoting healthy living, preventive care, and public health
                                 education.</p>
@@ -81,13 +81,13 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_two.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>2</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php">Clinical Skills & Simulation
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail">Clinical Skills & Simulation
                                     Workshop</a>
                             </h3>
                             <p>A practical training session to strengthen essential nursing and patient-care skills.
@@ -101,13 +101,13 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
@@ -122,13 +122,13 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>
@@ -144,13 +144,13 @@
                 <div class="col-lg-4 col-md-6  wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                     <div class="event-item mb-30 hover-zoomin">
                         <div class="thumb">
-                            <a href="<?= BASE_URL ?>pages/event-detail.php"><img
+                            <a href="<?= BASE_URL ?>pages/event-detail"><img
                                     src="<?= IMG_URL ?>main_page/event_three.png"
                                     alt="contact-bg-an-01"></a>
                         </div>
                         <div class="event-content">
                             <div class="date"><strong>15</strong> Jan, 2026</div>
-                            <h3><a href="<?= BASE_URL ?>pages/event-detail.php"> Community Health Outreach Camp</a>
+                            <h3><a href="<?= BASE_URL ?>pages/event-detail"> Community Health Outreach Camp</a>
                             </h3>
                             <p>A health outreach program providing basic check-ups and health guidance to the
                                 community.</p>

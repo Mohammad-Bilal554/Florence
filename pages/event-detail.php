@@ -23,7 +23,7 @@
 
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?= BASE_URL ?>index">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Event Detail</li>
                         </ol>
                     </nav>
@@ -122,7 +122,7 @@
                                         </li>
                                         <li>
                                             <div class="slider-btn">                                          
-                                                 <a href="<?= BASE_URL ?>pages/contact.php" class="btn ss-btn smoth-scroll">Book A Seat <i class="fal fa-long-arrow-right"></i></a>				
+                                                 <a href="<?= BASE_URL ?>pages/contact" class="btn ss-btn smoth-scroll">Book A Seat <i class="fal fa-long-arrow-right"></i></a>				
                                             </div>
                                         </li>
                                     </ul>
