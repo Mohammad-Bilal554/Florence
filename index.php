@@ -76,7 +76,7 @@
                                     style="font-size: 30px; color: white; margin-top: 5px;"></i>
                             </div>
                             <div class="text">
-                                <h5><a href="about.html">Quality Nursing Care</a></h5>
+                                <h5><a href="<?= BASE_URL ?>pages/about">Quality Nursing Care</a></h5>
                                 <p>Providing strong academic foundations with a focus on clinical skills, ethics,
                                     and compassionate patient care.</p>
                                 <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
@@ -92,7 +92,7 @@
                                     style="font-size: 30px; color: white; margin-top: 3px;"></i>
                             </div>
                             <div class="text">
-                                <h5><a href="about.html">Clinical Excellence</a></h5>
+                                <h5><a href="<?= BASE_URL ?>pages/about">Clinical Excellence</a></h5>
                                 <p>Hands-on training through well-equipped labs and hospital exposure to prepare
                                     students for real-world healthcare challenges.</p>
                                 <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
@@ -108,7 +108,7 @@
                                     style="font-size: 30px; color: white; margin-top: 3px;"></i>
                             </div>
                             <div class="text">
-                                <h5><a href="about.html">Career Pathways</a></h5>
+                                <h5><a href="<?= BASE_URL ?>pages/about">Career Pathways</a></h5>
                                 <p>Offering Bachelor’s and professional nursing programs designed to build
                                     confidence, competence, and career readiness.</p>
                                 <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
