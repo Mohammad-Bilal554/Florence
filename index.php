@@ -24,9 +24,9 @@
                                     compassionate healthcare professionals for the future.</p>
 
                                 <div class="slider-btn mt-30">
-                                    <a href="about.html" class="btn ss-btn mr-15" data-animation="fadeInLeft"
+                                    <a href="<?= BASE_URL ?>pages/about" class="btn ss-btn mr-15" data-animation="fadeInLeft"
                                         data-delay=".4s">Discover More <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact.html" class="btn ss-btn active" data-animation="fadeInLeft"
+                                    <a href="<?= BASE_URL ?>pages/contact" class="btn ss-btn active" data-animation="fadeInLeft"
                                         data-delay=".4s">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
 
@@ -52,9 +52,9 @@
                                     values, practical expertise, and a deep commitment to community health.</p>
 
                                 <div class="slider-btn mt-30">
-                                    <a href="about.html" class="btn ss-btn mr-15" data-animation="fadeInLeft"
+                                    <a href="<?= BASE_URL ?>pages/about" class="btn ss-btn mr-15" data-animation="fadeInLeft"
                                         data-delay=".4s">Discover More <i class="fa-solid fa-arrow-right"></i></a>
-                                    <a href="contact.html" class="btn ss-btn active" data-animation="fadeInLeft"
+                                    <a href="<?= BASE_URL ?>pages/contact" class="btn ss-btn active" data-animation="fadeInLeft"
                                         data-delay=".4s">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
                                 </div>
 
@@ -79,7 +79,7 @@
                                 <h5><a href="about.html">Quality Nursing Care</a></h5>
                                 <p>Providing strong academic foundations with a focus on clinical skills, ethics,
                                     and compassionate patient care.</p>
-                                <a href="about.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@
                                 <h5><a href="about.html">Clinical Excellence</a></h5>
                                 <p>Hands-on training through well-equipped labs and hospital exposure to prepare
                                     students for real-world healthcare challenges.</p>
-                                <a href="about.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                                 <h5><a href="about.html">Career Pathways</a></h5>
                                 <p>Offering Bachelor’s and professional nursing programs designed to build
                                     confidence, competence, and career readiness.</p>
-                                <a href="about.html">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                                <a href="<?= BASE_URL ?>pages/about">Read More <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
