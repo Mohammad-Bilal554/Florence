@@ -12,7 +12,7 @@ $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
 
 // Local XAMPP
 if ($host === 'localhost') {
-    $baseUrl = "http://localhost/Projects/FLORENCE/";
+    $baseUrl = "http://localhost/Projects/Florence/";
 } 
 // Render / Live
 else {
