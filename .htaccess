@@ -1,15 +1,13 @@
-
-
 Options -Indexes
 RewriteEngine On
 
-# Redirect example.php → /example
+# Remove .php from URL
 RewriteCond %{THE_REQUEST} \s/+(.+?)\.php[\s?]
 RewriteRule ^ %1 [R=301,L]
 
-# Send all non-file, non-dir requests to index.php
-RewriteCond %{REQUEST_FILENAME} !-f
+# Load matching PHP file
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
-
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L]
 
