@@ -144,6 +144,7 @@
     <!-- brand-area -->
     <div class="brand-area pt-60 pb-60" style="background-color:#5f9ea1">
         <div class="container">
+           <h1 class="text-center text-white mb-5">Training & Placements</h1>
             <div class="brand-active">
                 <div class="single-brand">
                     <img src="<?= IMG_URL ?>/testimonials/male.png" alt="img">
