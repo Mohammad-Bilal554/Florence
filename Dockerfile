@@ -1,15 +1,36 @@
 FROM php:8.2-apache
 
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
+# --------------------------------------------------
+# Enable required Apache modules
+# --------------------------------------------------
+RUN a2enmod rewrite headers
 
+# --------------------------------------------------
 # Allow .htaccess overrides
-RUN sed -i 's/AllowOverride None/AllowOverride All/g' /etc/apache2/apache2.conf
+# --------------------------------------------------
+RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/AllowOverride All/' /etc/apache2/apache2.conf
 
-# Copy project files
+# --------------------------------------------------
+# Set Apache document root explicitly
+# --------------------------------------------------
+ENV APACHE_DOCUMENT_ROOT /var/www/html
+
+RUN sed -ri 's!/var/www/html!${APACHE_DOCUMENT_ROOT}!g' \
+    /etc/apache2/sites-available/*.conf \
+    /etc/apache2/apache2.conf
+
+# --------------------------------------------------
+# Copy application files
+# --------------------------------------------------
 COPY . /var/www/html/
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html
+# --------------------------------------------------
+# Permissions
+# --------------------------------------------------
+RUN chown -R www-data:www-data /var/www/html \
+    && chmod -R 755 /var/www/html
 
+# --------------------------------------------------
+# Expose port (Render requirement)
+# --------------------------------------------------
 EXPOSE 80
